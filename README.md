@@ -2,4 +2,14 @@
 
 Copy everything, that you want to your home directory and enjoy my configuration
 
-That's all ¯\\_('-')_/¯
+---
+
+### Usage:
+
+```sh
+git clone https://github.com/pguin-sudo/setup ~/Setup && cd ~/Setup && ./setup.sh 
+```
+
+---
+
+That's all ¯\\\_('-')\_/¯
