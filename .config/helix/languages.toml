@@ -1,10 +1,17 @@
 [[language]]
 name = "python"
 auto-format = true
-[language.formatter]
-command = "black"
-args = [
-  "-", # stdin
-  "--quiet",
-  "--line-length=79",
+language-servers = [
+    {name = "pyright"},
+    {name = "ruff-lsp"},
 ]
+
+[language-server.pyright]
+command = "pyright-langserver"
+args = ["--stdio"]
+config = {}
+
+[language-server.ruff-lsp]
+command = "ruff-lsp"
+args = []
+config = {}
