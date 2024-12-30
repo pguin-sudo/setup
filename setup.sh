@@ -7,4 +7,4 @@ cp -r $(pwd)/.config ~/
 yay -S noto-fonts-emoji
 
 # My packages
-yay -S telegram-desktop krita libreoffice steam helix obs-studio cava byedpi-bin htop
+yay -S eza telegram-desktop krita libreoffice steam helix obs-studio cava byedpi-bin htop
