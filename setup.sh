@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Applying config
-cp -r $(pwd)/.config ~/
+./config.sh
 
 # Packages that are included in HyDE
 yay -S eza fish starship
