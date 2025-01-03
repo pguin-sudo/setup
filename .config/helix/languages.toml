@@ -14,4 +14,7 @@ config = {}
 [language-server.ruff]
 command = "ruff-lsp"
 args = []
-config = {}
+
+[language-server.ruff.config]
+documentFormatting = true 
+settings.run = "onSave"
