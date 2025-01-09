@@ -11,7 +11,7 @@ def do_or_skip(prompt, command) -> bool:
 
 
 print("<|==============|          Applying config           |==============|>")
-do_or_skip("Processing?", "cp -r $(pwd)/.config ~/")
+do_or_skip("Processing?", "cp -vri $(pwd)/.config ~/ ")
 print("Config has been copied successfully")
 
 print("<|==============| Packages that are included in HyDE |==============|>")
