@@ -28,3 +28,11 @@ do_or_skip(
     "Processing?",
     "yay -S telegram-desktop cava krita libreoffice steam obs-studio byedpi-bin",
 )
+
+print("<|==============|     Setup notepad environment      |==============|>")
+do_or_skip(
+    "Processing?",
+    "mkdir -vp ~/Documents/Notepad/TODO ~/Documents/Notepad/Knowledge ~/Documents/Notepad/Notes",
+)
+
+print("<|==============|            That's all...           |==============|>")
