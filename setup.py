@@ -2,7 +2,7 @@ import subprocess
 
 
 def do_or_skip(prompt, command) -> bool:
-    answer = input(f"{prompt} (Y/n)? ").strip().lower()
+    answer = input(f"\033[34m::\033[0m {prompt} [Y/n]? ").strip().lower()
     if answer in ("", "y"):
         return subprocess.run(command, shell=True).returncode == 1
     else:
