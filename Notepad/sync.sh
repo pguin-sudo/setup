@@ -7,8 +7,11 @@ if [ ! -d "$REPO_DIR/.git" ]; then
   exit 1
 fi
 
-if [[ -n $(git status --porcelain) ]]; then
+echo "Pulling latest changes from remote repository..."
+git pull origin master
+
   echo "Changes detected, committing and pushing..."
+if [[ -n $(git status --porcelain) ]]; then
   
   git add .
 
@@ -18,3 +21,7 @@ if [[ -n $(git status --porcelain) ]]; then
 else
   echo "No changes to commit."
 fi
+
+echo "Rebasing with remote master..."
+git fetch origin
+git rebase origin/master
