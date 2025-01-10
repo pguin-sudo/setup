@@ -32,7 +32,11 @@ do_or_skip(
 print("<|==============|     Setup notepad environment      |==============|>")
 do_or_skip(
     "Processing?",
-    "mkdir -vp ~/Documents/Notepad/TODO ~/Documents/Notepad/Knowledge ~/Documents/Notepad/Notes",
+    (
+        "cp -vr $(pwd)/Notepad ~/ &&"
+        "yay -S cron &&"
+        "(crontab -l 2>/dev/null; echo '*/5 * * * * cd ~/Documents/Notepad && ./sync.sh') | crontab -"
+    ),
 )
 
 print("<|==============|            That's all...           |==============|>")
