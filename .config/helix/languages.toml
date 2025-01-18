@@ -18,3 +18,4 @@ args = []
 [language-server.ruff.config]
 documentFormatting = true 
 settings.run = "onSave"
+
