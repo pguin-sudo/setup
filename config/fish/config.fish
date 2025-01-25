@@ -21,6 +21,10 @@ abbr .5 'cd ../../../../..'
 # Always mkdir a path (this doesn't inhibit functionality to make a single dir)
 abbr mkdir 'mkdir -p'
 
+# Exports
+export VISUAL=helix
+export EDITOR="$VISUAL"
+
 # My Notepad aliases
 alias todo='cd ~/Documents/Notepad/TODO && hx in.md'
 alias knowledge='cd ~/Documents/Notepad/Knowledge && hx'
