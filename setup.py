@@ -153,8 +153,13 @@ def setup_zapret_and_dns_proxy():
             )
         if ask("Run discord fix?"):
             execute_commands(
-                "sudo cp /opt/zapret/init.d/custom.d.examples.linux/50-discord /opt/zapret/init.d/sysv/custom.d/50-discord"
+                "sudo cp /opt/zapret/init.d/custom.d.examples.linux/50-discord /opt/zapret/init.d/sysv/custom.d/50-discord",
             )
+        print(
+            f"{bcolors.WARNING}{formatting.WARNING}DO NOT JUST PRESS ENTER WHILE SETUP ZAPERT{bcolors.ENDC}"
+        )
+        if ask("Copy autors' zapret config?"):
+            execute_commands("sudo cp $(pwd)/opt/zapret/config /opt/zapret/config")
         execute_commands("sudo /opt/zapret/install_easy.sh")
 
 
