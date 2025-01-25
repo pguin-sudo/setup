@@ -88,7 +88,7 @@ def install_other_packages():
             "yay -S libreoffice",
             "yay -S steam",
             "yay -S obs-studio",
-            "yay -S byedpi-bin",
+            "yay -S discord",
         )
 
 
