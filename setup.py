@@ -57,13 +57,13 @@ def install_hyde_packages():
         execute_commands("yay -S eza", "yay -S fish", "yay -S starship")
 
 
-def install_fish_fixes():
+def setup_fish_as_default_shell():
     """Install fixes for fish."""
     print(
         f"{bcolors.HEADER}{formatting.HEADER}           Fixes for fish           {formatting.HEADER_END}{bcolors.ENDC}"
     )
     if ask("Processing?"):
-        execute_commands("yay -S noto-fonts-emoji")
+        execute_commands("yay -S noto-fonts-emoji", "chsh -s $(which fish)")
 
 
 def install_important_packages():
@@ -180,7 +180,7 @@ def main():
     """Main function to execute all setup steps."""
     process_config()
     install_hyde_packages()
-    install_fish_fixes()
+    setup_fish_as_default_shell()
     install_important_packages()
     install_other_packages()
     setup_zapret_and_dns_proxy()
