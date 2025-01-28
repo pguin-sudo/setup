@@ -134,13 +134,6 @@ def setup_zapret_and_dns_proxy():
         execute_commands(
             "sudo /opt/zapret/install_bin.sh",
             "sudo /opt/zapret/install_prereq.sh",
-            "yay -S dnscrypt-proxy",
-            "sudo cp $(pwd)/etc/dnscrypt-proxy/dnscrypt-proxy.toml /etc/dnscrypt-proxy/dnscrypt-proxy.toml",
-            "sudo chattr -i /etc/resolv.conf",
-            "sudo cp $(pwd)/etc/resolv.conf /etc/resolv.conf",
-            "sudo chattr +i /etc/resolv.conf",
-            "sudo systemctl enable dnscrypt-proxy.service",
-            "sudo systemctl start dnscrypt-proxy.service",
             "sudo systemctl enable systemd-resolved.service",
             "sudo systemctl start systemd-resolved.service",
         )
