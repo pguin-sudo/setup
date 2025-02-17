@@ -82,6 +82,7 @@ def install_other_packages():
     )
     if ask("Processing?"):
         execute_commands(
+            "yay -S github-cli",
             "yay -S telegram-desktop",
             "yay -S cava",
             "yay -S krita",
