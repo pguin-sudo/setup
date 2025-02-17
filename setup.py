@@ -72,7 +72,7 @@ def install_important_packages():
         f"{bcolors.HEADER}{formatting.HEADER}      Very important packages       {formatting.HEADER_END}{bcolors.ENDC}"
     )
     if ask("Processing?"):
-        execute_commands("yay -S helix", "yay -S htop")
+        execute_commands("yay -S helix", "yay -S htop", "yay -S wget")
 
 
 def install_other_packages():
