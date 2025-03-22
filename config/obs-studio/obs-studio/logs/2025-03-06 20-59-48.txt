@@ -1,0 +1,1666 @@
+20:59:48.011: Platform: Wayland
+20:59:48.011: CPU Name: AMD Ryzen 7 2700 Eight-Core Processor
+20:59:48.011: CPU Speed: 3918.538MHz
+20:59:48.012: Physical Cores: 8, Logical Cores: 16
+20:59:48.012: Physical Memory: 15914MB Total, 11519MB Free
+20:59:48.012: Kernel Version: Linux 6.13.4-arch1-1
+20:59:48.012: Distribution: "Arch Linux" Unknown
+20:59:48.012: Desktop Environment: Hyprland (Hyprland)
+20:59:48.012: Session Type: wayland
+20:59:48.014: Qt Version: 6.8.2 (runtime), 6.8.1 (compiled)
+20:59:48.014: Portable mode: false
+20:59:48.054: OBS 31.0.1 (linux)
+20:59:48.054: ---------------------------------
+20:59:48.055: ---------------------------------
+20:59:48.055: audio settings reset:
+20:59:48.055: 	samples per sec: 48000
+20:59:48.055: 	speakers:        2
+20:59:48.055: 	max buffering:   960 milliseconds
+20:59:48.055: 	buffering type:  dynamically increasing
+20:59:48.056: ---------------------------------
+20:59:48.056: Initializing OpenGL...
+20:59:48.056: Using EGL/Wayland
+20:59:48.095: Initialized EGL 1.5
+20:59:48.116: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 1070 Ti/PCIe/SSE2
+20:59:48.117: OpenGL loaded successfully, version 3.3.0 NVIDIA 570.86.16, shading language 3.30 NVIDIA via Cg compiler
+20:59:48.146: ---------------------------------
+20:59:48.146: video settings reset:
+20:59:48.146: 	base resolution:   1920x1080
+20:59:48.146: 	output resolution: 1280x720
+20:59:48.146: 	downscale filter:  Bicubic
+20:59:48.146: 	fps:               30/1
+20:59:48.146: 	format:            NV12
+20:59:48.146: 	YUV mode:          Rec. 709/Partial
+20:59:48.147: NV12 texture support enabled
+20:59:48.147: P010 texture support not available
+20:59:48.166: Audio monitoring device:
+20:59:48.166: 	name: Default
+20:59:48.166: 	id: default
+20:59:48.167: ---------------------------------
+20:59:48.178: Failed to load 'en-US' text for module: 'decklink-captions.so'
+20:59:48.187: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+20:59:48.197: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+20:59:48.197: Failed to initialize module 'decklink.so'
+20:59:48.371: [pipewire] Available capture sources:
+20:59:48.371: [pipewire]     - Monitor source
+20:59:48.371: [pipewire]     - Window source
+20:59:48.478: LIBVA_DRIVER_NAME variable is set, this could prevent FFmpeg VAAPI from working correctly
+20:59:48.478: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+20:59:48.478: FFmpeg VAAPI H264 encoding not supported
+20:59:48.479: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+20:59:48.479: FFmpeg VAAPI AV1 encoding not supported
+20:59:48.479: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+20:59:48.479: FFmpeg VAAPI HEVC encoding not supported
+20:59:48.963: [obs-nvenc] NVENC version: 12.2 (compiled) / 13.0 (driver), CUDA driver version: 12.80, AV1 supported: false
+20:59:49.131: os_dlopen(/usr/lib/obs-plugins/obs-websocket.so->/usr/lib/obs-plugins/obs-websocket.so): libqrcodegencpp.so.1: cannot open shared object file: No such file or directory
+20:59:49.131: 
+20:59:49.140: os_dlopen(/usr/lib/obs-plugins/obs-websocket.so->/usr/lib/obs-plugins/obs-websocket.so): libqrcodegencpp.so.1: cannot open shared object file: No such file or directory
+20:59:49.140: 
+20:59:49.140: Module '/usr/lib/obs-plugins/obs-websocket.so' not loaded
+20:59:49.209: ---------------------------------
+20:59:49.209:   Loaded Modules:
+20:59:49.209:     text-freetype2.so
+20:59:49.209:     rtmp-services.so
+20:59:49.209:     obs-x264.so
+20:59:49.209:     obs-webrtc.so
+20:59:49.209:     obs-vst.so
+20:59:49.209:     obs-transitions.so
+20:59:49.209:     obs-qsv11.so
+20:59:49.209:     obs-outputs.so
+20:59:49.209:     obs-nvenc.so
+20:59:49.209:     obs-libfdk.so
+20:59:49.209:     obs-filters.so
+20:59:49.209:     obs-ffmpeg.so
+20:59:49.209:     linux-v4l2.so
+20:59:49.209:     linux-pulseaudio.so
+20:59:49.209:     linux-pipewire.so
+20:59:49.209:     linux-jack.so
+20:59:49.209:     linux-capture.so
+20:59:49.209:     linux-alsa.so
+20:59:49.209:     image-source.so
+20:59:49.209:     frontend-tools.so
+20:59:49.209:     decklink-output-ui.so
+20:59:49.209:     decklink-captions.so
+20:59:49.209: ---------------------------------
+20:59:49.209: ---------------------------------
+20:59:49.209: Available Encoders:
+20:59:49.209:   Video Encoders:
+20:59:49.209: 	- ffmpeg_svt_av1 (SVT-AV1)
+20:59:49.209: 	- ffmpeg_aom_av1 (AOM AV1)
+20:59:49.209: 	- obs_nvenc_h264_tex (NVIDIA NVENC H.264)
+20:59:49.209: 	- obs_nvenc_hevc_tex (NVIDIA NVENC HEVC)
+20:59:49.209: 	- obs_x264 (x264)
+20:59:49.209:   Audio Encoders:
+20:59:49.209: 	- ffmpeg_aac (FFmpeg AAC)
+20:59:49.209: 	- ffmpeg_opus (FFmpeg Opus)
+20:59:49.209: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+20:59:49.210: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+20:59:49.210: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+20:59:49.210: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+20:59:49.210: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+20:59:49.210: 	- libfdk_aac (libfdk AAC)
+20:59:49.210: ==== Startup complete ===============================================
+20:59:49.253: All scene data cleared
+20:59:49.253: ------------------------------------------------
+20:59:49.259: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.7) 15.0.0'
+20:59:49.259: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+20:59:49.259: pulse-input: Started recording from 'alsa_output.usb-Burr-Brown_from_TI_USB_Audio_CODEC-00.analog-stereo-output.monitor' (default)
+20:59:49.260: [Loaded global audio device]: 'Desktop Audio'
+20:59:49.260: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.7) 15.0.0'
+20:59:49.261: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+20:59:49.261: pulse-input: Started recording from 'alsa_input.usb-Burr-Brown_from_TI_USB_Audio_CODEC-00.analog-stereo-input' (default)
+20:59:49.261: [Loaded global audio device]: 'Mic/Aux'
+20:59:49.261: v4l2-input: Start capture from /dev/video0
+20:59:49.357: v4l2-input: Input: 0
+20:59:49.360: v4l2-input: Resolution: 640x480
+20:59:49.360: v4l2-input: Pixelformat: YUYV
+20:59:49.360: v4l2-input: Linesize: 1280 Bytes
+20:59:49.362: v4l2-input: Framerate: 30.00 fps
+20:59:49.363: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+20:59:49.363: PipeWire initialized
+20:59:49.385: Switched to scene 'Main'
+20:59:49.385: ------------------------------------------------
+20:59:49.385: Loaded scenes:
+20:59:49.385: - scene 'Main':
+20:59:49.385:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+20:59:49.385:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+20:59:49.385: - scene 'Main 2':
+20:59:49.385:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+20:59:49.385:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+20:59:49.385:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+20:59:49.385: - scene 'Reversed':
+20:59:49.385:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+20:59:49.385:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+20:59:49.385:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+20:59:49.385: - scene 'Screen':
+20:59:49.385:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+20:59:49.385: - scene 'Camera':
+20:59:49.385:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+20:59:49.385:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+20:59:49.385: - scene 'Camera Jmih':
+20:59:49.386:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+20:59:49.386:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+20:59:49.386:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+20:59:49.386: - scene 'Camera dual':
+20:59:49.386:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+20:59:49.386:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+20:59:49.386: ------------------------------------------------
+20:59:49.448: [pipewire] Screencast session created
+20:59:49.532: v4l2-input: /dev/video0: select timed out
+20:59:49.532: v4l2-input: /dev/video0: failed to log status
+20:59:49.847: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+20:59:49.847: 
+20:59:50.693: [pipewire] Asking for monitor and window
+20:59:50.697: [pipewire] source selected, setting up screencast
+20:59:50.710: [pipewire] Server version: 1.2.7
+20:59:50.710: [pipewire] Library version: 1.2.7
+20:59:50.710: [pipewire] Header version: 1.2.7
+20:59:50.710: [pipewire] Created stream 0x5f0c1ab12500
+20:59:50.710: [pipewire] Stream 0x5f0c1ab12500 state: "connecting" (error: none)
+20:59:50.711: [pipewire] Playing stream 0x5f0c1ab12500
+20:59:50.711: [pipewire] Stream 0x5f0c1ab12500 state: "paused" (error: none)
+20:59:50.753: [pipewire] Negotiated format:
+20:59:50.754: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+20:59:50.754: [pipewire]     Modifier: 0x0
+20:59:50.754: [pipewire]     Size: 1920x1080
+20:59:50.754: [pipewire]     Framerate: 0/1
+20:59:50.754: [pipewire] Negotiated format:
+20:59:50.754: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+20:59:50.754: [pipewire]     Modifier: 0x300000000cdb014
+20:59:50.754: [pipewire]     Size: 1920x1080
+20:59:50.754: [pipewire]     Framerate: 0/1
+20:59:50.756: [pipewire] Stream 0x5f0c1ab12500 state: "streaming" (error: none)
+21:00:00.079: Virtual camera started
+21:00:00.089: ==== Virtual Camera Start ==========================================
+21:00:00.089: Starting Virtual Camera output to Program
+21:30:53.178: User switched to scene 'Main 2'
+21:33:57.899: User switched to scene 'Camera dual'
+21:33:58.447: [pipewire] Stream 0x5f0c1ab12500 state: "paused" (error: none)
+21:33:59.131: User switched to scene 'Camera Jmih'
+21:33:59.739: User switched to scene 'Camera dual'
+21:34:01.108: User switched to scene 'Camera Jmih'
+21:34:10.129: User added scene 'Discord'
+21:34:10.132: User switched to scene 'Discord'
+21:34:12.525: User added source 'bg.png' (image_source) to scene 'Discord'
+21:34:13.642: QVariant::save: unable to save type 'OBSSafeRef<obs_scene*,obs_scene_get_ref,obs_scene_release>' (type id: 65569).
+21:34:13.642: 
+21:35:46.337: User switched to scene 'Main 2'
+21:35:46.349: [pipewire] Stream 0x5f0c1ab12500 state: "streaming" (error: none)
+21:35:47.040: User switched to scene 'Screen'
+21:35:47.337: User switched to scene 'Camera Jmih'
+21:35:47.880: [pipewire] Stream 0x5f0c1ab12500 state: "paused" (error: none)
+21:35:48.280: User switched to scene 'Camera dual'
+22:10:18.425: User switched to scene 'Camera'
+22:10:19.230: User switched to scene 'Camera Jmih'
+22:10:19.790: User switched to scene 'Camera dual'
+22:10:23.023: User switched to scene 'Discord'
+22:10:23.592: User switched to scene 'Camera dual'
+22:10:23.879: User switched to scene 'Camera Jmih'
+22:10:25.432: User switched to scene 'Camera'
+22:10:26.297: User switched to scene 'Discord'
+22:10:33.112: User switched to scene 'Camera dual'
+22:10:33.721: User switched to scene 'Camera Jmih'
+22:10:35.272: User switched to scene 'Camera dual'
+22:10:35.663: User switched to scene 'Camera'
+22:10:36.609: User switched to scene 'Main 2'
+22:10:36.620: [pipewire] Stream 0x5f0c1ab12500 state: "streaming" (error: none)
+22:10:37.078: User switched to scene 'Reversed'
+22:10:37.559: User switched to scene 'Main 2'
+22:10:42.383: User switched to scene 'Camera dual'
+22:10:42.947: [pipewire] Stream 0x5f0c1ab12500 state: "paused" (error: none)
+22:10:43.080: User switched to scene 'Camera Jmih'
+22:10:43.351: User switched to scene 'Camera dual'
+22:10:52.794: v4l2-input: /dev/video1 seems to not support video capture
+22:10:52.795: v4l2-input: Found device 'OBS Virtual Camera' at /dev/video2
+22:10:52.795: v4l2-input: Found device 'Vimicro USB2.0 UVC PC Camera: V' at /dev/video0
+22:10:52.797: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+22:10:52.797: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+22:10:52.797: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+22:10:52.797: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+22:10:52.797: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+22:10:52.798: v4l2-input: Found input 'Camera 1' (Index 0)
+22:10:52.798: v4l2-controls: setting default for Power Line Frequency to 1
+22:10:52.798: v4l2-controls: setting default for Auto Exposure to 3
+22:10:52.798: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+22:10:52.798: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+22:10:52.798: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+22:10:52.798: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+22:10:52.798: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+22:10:58.329: v4l2-input: /dev/video0: Stopped capture after 113850 frames
+22:10:58.334: v4l2-input: Start capture from /dev/video0
+22:10:58.335: v4l2-input: Input: 0
+22:10:58.338: v4l2-input: Resolution: 640x480
+22:10:58.338: v4l2-input: Pixelformat: YUYV
+22:10:58.338: v4l2-input: Linesize: 1280 Bytes
+22:10:58.340: v4l2-input: Framerate: 30.00 fps
+22:10:58.341: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:10:58.471: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:10:58.473: v4l2-input: Start capture from /dev/video0
+22:10:58.473: v4l2-input: Input: 0
+22:10:58.476: v4l2-input: Resolution: 640x480
+22:10:58.477: v4l2-input: Pixelformat: YUYV
+22:10:58.477: v4l2-input: Linesize: 1280 Bytes
+22:10:58.478: v4l2-input: Framerate: 30.00 fps
+22:10:58.479: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:10:58.621: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:10:58.623: v4l2-input: Start capture from /dev/video0
+22:10:58.624: v4l2-input: Input: 0
+22:10:58.627: v4l2-input: Resolution: 640x480
+22:10:58.627: v4l2-input: Pixelformat: YUYV
+22:10:58.627: v4l2-input: Linesize: 1280 Bytes
+22:10:58.628: v4l2-input: Framerate: 30.00 fps
+22:10:58.629: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:10:58.773: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:10:58.775: v4l2-input: Start capture from /dev/video0
+22:10:58.775: v4l2-input: Input: 0
+22:10:58.779: v4l2-input: Resolution: 640x480
+22:10:58.779: v4l2-input: Pixelformat: YUYV
+22:10:58.779: v4l2-input: Linesize: 1280 Bytes
+22:10:58.780: v4l2-input: Framerate: 30.00 fps
+22:10:58.781: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:10:58.923: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:10:58.925: v4l2-input: Start capture from /dev/video0
+22:10:58.926: v4l2-input: Input: 0
+22:10:58.929: v4l2-input: Resolution: 640x480
+22:10:58.929: v4l2-input: Pixelformat: YUYV
+22:10:58.929: v4l2-input: Linesize: 1280 Bytes
+22:10:58.931: v4l2-input: Framerate: 30.00 fps
+22:10:58.932: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:10:59.071: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:10:59.073: v4l2-input: Start capture from /dev/video0
+22:10:59.073: v4l2-input: Input: 0
+22:10:59.078: v4l2-input: Resolution: 640x480
+22:10:59.078: v4l2-input: Pixelformat: YUYV
+22:10:59.078: v4l2-input: Linesize: 1280 Bytes
+22:10:59.079: v4l2-input: Framerate: 30.00 fps
+22:10:59.080: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:10:59.249: v4l2-input: /dev/video0: select timed out
+22:10:59.249: v4l2-input: /dev/video0: failed to log status
+22:10:59.249: v4l2-input: /dev/video0: Stopped capture after 0 frames
+22:10:59.251: v4l2-input: Start capture from /dev/video0
+22:10:59.251: v4l2-input: Input: 0
+22:10:59.255: v4l2-input: Resolution: 640x480
+22:10:59.255: v4l2-input: Pixelformat: YUYV
+22:10:59.255: v4l2-input: Linesize: 1280 Bytes
+22:10:59.256: v4l2-input: Framerate: 30.00 fps
+22:10:59.257: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:10:59.327: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:10:59.329: v4l2-input: Start capture from /dev/video0
+22:10:59.329: v4l2-input: Input: 0
+22:10:59.332: v4l2-input: Resolution: 640x480
+22:10:59.332: v4l2-input: Pixelformat: YUYV
+22:10:59.332: v4l2-input: Linesize: 1280 Bytes
+22:10:59.334: v4l2-input: Framerate: 30.00 fps
+22:10:59.335: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:00.168: v4l2-input: /dev/video0: select timed out
+22:11:00.168: v4l2-input: /dev/video0: failed to log status
+22:11:00.369: v4l2-input: /dev/video0: Stopped capture after 19 frames
+22:11:00.371: v4l2-input: Start capture from /dev/video0
+22:11:00.371: v4l2-input: Input: 0
+22:11:00.375: v4l2-input: Resolution: 640x480
+22:11:00.375: v4l2-input: Pixelformat: YUYV
+22:11:00.375: v4l2-input: Linesize: 1280 Bytes
+22:11:00.376: v4l2-input: Framerate: 30.00 fps
+22:11:00.377: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:00.519: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:00.521: v4l2-input: Start capture from /dev/video0
+22:11:00.522: v4l2-input: Input: 0
+22:11:00.526: v4l2-input: Resolution: 640x480
+22:11:00.526: v4l2-input: Pixelformat: YUYV
+22:11:00.526: v4l2-input: Linesize: 1280 Bytes
+22:11:00.527: v4l2-input: Framerate: 30.00 fps
+22:11:00.529: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:00.671: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:00.674: v4l2-input: Start capture from /dev/video0
+22:11:00.675: v4l2-input: Input: 0
+22:11:00.679: v4l2-input: Resolution: 640x480
+22:11:00.679: v4l2-input: Pixelformat: YUYV
+22:11:00.679: v4l2-input: Linesize: 1280 Bytes
+22:11:00.680: v4l2-input: Framerate: 30.00 fps
+22:11:00.681: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:00.819: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:00.821: v4l2-input: Start capture from /dev/video0
+22:11:00.821: v4l2-input: Input: 0
+22:11:00.824: v4l2-input: Resolution: 640x480
+22:11:00.824: v4l2-input: Pixelformat: YUYV
+22:11:00.824: v4l2-input: Linesize: 1280 Bytes
+22:11:00.826: v4l2-input: Framerate: 30.00 fps
+22:11:00.827: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:00.997: v4l2-input: /dev/video0: select timed out
+22:11:00.997: v4l2-input: /dev/video0: failed to log status
+22:11:00.997: v4l2-input: /dev/video0: Stopped capture after 0 frames
+22:11:00.999: v4l2-input: Start capture from /dev/video0
+22:11:00.999: v4l2-input: Input: 0
+22:11:01.006: v4l2-input: Resolution: 640x480
+22:11:01.006: v4l2-input: Pixelformat: YUYV
+22:11:01.006: v4l2-input: Linesize: 1280 Bytes
+22:11:01.009: v4l2-input: Framerate: 30.00 fps
+22:11:01.010: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:01.180: v4l2-input: /dev/video0: select timed out
+22:11:01.180: v4l2-input: /dev/video0: failed to log status
+22:11:01.297: v4l2-input: /dev/video0: Stopped capture after 4 frames
+22:11:01.299: v4l2-input: Start capture from /dev/video0
+22:11:01.299: v4l2-input: Input: 0
+22:11:01.302: v4l2-input: Resolution: 640x480
+22:11:01.302: v4l2-input: Pixelformat: YUYV
+22:11:01.302: v4l2-input: Linesize: 1280 Bytes
+22:11:01.304: v4l2-input: Framerate: 30.00 fps
+22:11:01.305: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:01.451: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:01.453: v4l2-input: Start capture from /dev/video0
+22:11:01.454: v4l2-input: Input: 0
+22:11:01.458: v4l2-input: Resolution: 640x480
+22:11:01.458: v4l2-input: Pixelformat: YUYV
+22:11:01.458: v4l2-input: Linesize: 1280 Bytes
+22:11:01.460: v4l2-input: Framerate: 30.00 fps
+22:11:01.460: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:01.711: v4l2-input: /dev/video0: Stopped capture after 4 frames
+22:11:01.713: v4l2-input: Start capture from /dev/video0
+22:11:01.713: v4l2-input: Input: 0
+22:11:01.716: v4l2-input: Resolution: 640x480
+22:11:01.716: v4l2-input: Pixelformat: YUYV
+22:11:01.716: v4l2-input: Linesize: 1280 Bytes
+22:11:01.718: v4l2-input: Framerate: 30.00 fps
+22:11:01.719: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:01.861: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:01.863: v4l2-input: Start capture from /dev/video0
+22:11:01.863: v4l2-input: Input: 0
+22:11:01.868: v4l2-input: Resolution: 640x480
+22:11:01.868: v4l2-input: Pixelformat: YUYV
+22:11:01.868: v4l2-input: Linesize: 1280 Bytes
+22:11:01.869: v4l2-input: Framerate: 30.00 fps
+22:11:01.870: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:02.040: v4l2-input: /dev/video0: select timed out
+22:11:02.040: v4l2-input: /dev/video0: failed to log status
+22:11:02.040: v4l2-input: /dev/video0: Stopped capture after 0 frames
+22:11:02.043: v4l2-input: Start capture from /dev/video0
+22:11:02.045: v4l2-input: Input: 0
+22:11:02.048: v4l2-input: Resolution: 640x480
+22:11:02.048: v4l2-input: Pixelformat: YUYV
+22:11:02.048: v4l2-input: Linesize: 1280 Bytes
+22:11:02.050: v4l2-input: Framerate: 30.00 fps
+22:11:02.051: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:02.117: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:02.119: v4l2-input: Start capture from /dev/video0
+22:11:02.119: v4l2-input: Input: 0
+22:11:02.122: v4l2-input: Resolution: 640x480
+22:11:02.122: v4l2-input: Pixelformat: YUYV
+22:11:02.122: v4l2-input: Linesize: 1280 Bytes
+22:11:02.124: v4l2-input: Framerate: 30.00 fps
+22:11:02.125: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:02.958: v4l2-input: /dev/video0: select timed out
+22:11:02.958: v4l2-input: /dev/video0: failed to log status
+22:11:04.395: v4l2-input: /dev/video0: Stopped capture after 52 frames
+22:11:04.397: v4l2-input: Start capture from /dev/video0
+22:11:04.398: v4l2-input: Input: 0
+22:11:04.401: v4l2-input: Resolution: 640x480
+22:11:04.401: v4l2-input: Pixelformat: YUYV
+22:11:04.401: v4l2-input: Linesize: 1280 Bytes
+22:11:04.402: v4l2-input: Framerate: 30.00 fps
+22:11:04.404: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:04.547: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:04.549: v4l2-input: Start capture from /dev/video0
+22:11:04.549: v4l2-input: Input: 0
+22:11:04.552: v4l2-input: Resolution: 640x480
+22:11:04.552: v4l2-input: Pixelformat: YUYV
+22:11:04.552: v4l2-input: Linesize: 1280 Bytes
+22:11:04.554: v4l2-input: Framerate: 30.00 fps
+22:11:04.556: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:05.278: v4l2-input: /dev/video0: select timed out
+22:11:05.278: v4l2-input: /dev/video0: failed to log status
+22:11:07.503: v4l2-input: /dev/video0: Stopped capture after 70 frames
+22:11:07.505: v4l2-input: Start capture from /dev/video0
+22:11:07.505: v4l2-input: Input: 0
+22:11:07.509: v4l2-input: Resolution: 640x480
+22:11:07.509: v4l2-input: Pixelformat: YUYV
+22:11:07.509: v4l2-input: Linesize: 1280 Bytes
+22:11:07.510: v4l2-input: Framerate: 30.00 fps
+22:11:07.511: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:07.514: v4l2-input: /dev/video0: Stopped capture after 0 frames
+22:11:07.517: v4l2-input: Start capture from /dev/video0
+22:11:07.519: v4l2-input: Input: 0
+22:11:07.522: v4l2-input: Resolution: 640x480
+22:11:07.522: v4l2-input: Pixelformat: YUYV
+22:11:07.522: v4l2-input: Linesize: 1280 Bytes
+22:11:07.524: v4l2-input: Framerate: 30.00 fps
+22:11:07.525: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:07.653: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:07.655: v4l2-input: Start capture from /dev/video0
+22:11:07.655: v4l2-input: Input: 0
+22:11:07.659: v4l2-input: Resolution: 640x480
+22:11:07.659: v4l2-input: Pixelformat: YUYV
+22:11:07.659: v4l2-input: Linesize: 1280 Bytes
+22:11:07.660: v4l2-input: Framerate: 30.00 fps
+22:11:07.662: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:07.805: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:07.807: v4l2-input: Start capture from /dev/video0
+22:11:07.807: v4l2-input: Input: 0
+22:11:07.811: v4l2-input: Resolution: 640x480
+22:11:07.811: v4l2-input: Pixelformat: YUYV
+22:11:07.811: v4l2-input: Linesize: 1280 Bytes
+22:11:07.812: v4l2-input: Framerate: 30.00 fps
+22:11:07.813: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:07.955: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:07.957: v4l2-input: Start capture from /dev/video0
+22:11:07.958: v4l2-input: Input: 0
+22:11:07.961: v4l2-input: Resolution: 640x480
+22:11:07.961: v4l2-input: Pixelformat: YUYV
+22:11:07.961: v4l2-input: Linesize: 1280 Bytes
+22:11:07.963: v4l2-input: Framerate: 30.00 fps
+22:11:07.965: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:08.382: v4l2-input: /dev/video0: select timed out
+22:11:08.382: v4l2-input: /dev/video0: failed to log status
+22:11:09.107: v4l2-input: /dev/video0: Stopped capture after 22 frames
+22:11:09.109: v4l2-input: Start capture from /dev/video0
+22:11:09.109: v4l2-input: Input: 0
+22:11:09.113: v4l2-input: Resolution: 640x480
+22:11:09.113: v4l2-input: Pixelformat: YUYV
+22:11:09.113: v4l2-input: Linesize: 1280 Bytes
+22:11:09.114: v4l2-input: Framerate: 30.00 fps
+22:11:09.116: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:09.259: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:09.261: v4l2-input: Start capture from /dev/video0
+22:11:09.262: v4l2-input: Input: 0
+22:11:09.265: v4l2-input: Resolution: 640x480
+22:11:09.265: v4l2-input: Pixelformat: YUYV
+22:11:09.265: v4l2-input: Linesize: 1280 Bytes
+22:11:09.267: v4l2-input: Framerate: 30.00 fps
+22:11:09.268: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:09.407: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:09.409: v4l2-input: Start capture from /dev/video0
+22:11:09.409: v4l2-input: Input: 0
+22:11:09.412: v4l2-input: Resolution: 640x480
+22:11:09.412: v4l2-input: Pixelformat: YUYV
+22:11:09.412: v4l2-input: Linesize: 1280 Bytes
+22:11:09.414: v4l2-input: Framerate: 30.00 fps
+22:11:09.415: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:09.557: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:09.559: v4l2-input: Start capture from /dev/video0
+22:11:09.559: v4l2-input: Input: 0
+22:11:09.562: v4l2-input: Resolution: 640x480
+22:11:09.562: v4l2-input: Pixelformat: YUYV
+22:11:09.562: v4l2-input: Linesize: 1280 Bytes
+22:11:09.564: v4l2-input: Framerate: 30.00 fps
+22:11:09.566: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:09.821: v4l2-input: /dev/video0: Stopped capture after 4 frames
+22:11:09.823: v4l2-input: Start capture from /dev/video0
+22:11:09.823: v4l2-input: Input: 0
+22:11:09.826: v4l2-input: Resolution: 640x480
+22:11:09.826: v4l2-input: Pixelformat: YUYV
+22:11:09.826: v4l2-input: Linesize: 1280 Bytes
+22:11:09.828: v4l2-input: Framerate: 30.00 fps
+22:11:09.829: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:09.998: v4l2-input: /dev/video0: select timed out
+22:11:09.998: v4l2-input: /dev/video0: failed to log status
+22:11:09.998: v4l2-input: /dev/video0: Stopped capture after 0 frames
+22:11:09.999: v4l2-input: Start capture from /dev/video0
+22:11:10.000: v4l2-input: Input: 0
+22:11:10.003: v4l2-input: Resolution: 640x480
+22:11:10.003: v4l2-input: Pixelformat: YUYV
+22:11:10.003: v4l2-input: Linesize: 1280 Bytes
+22:11:10.004: v4l2-input: Framerate: 30.00 fps
+22:11:10.005: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:10.113: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:10.115: v4l2-input: Start capture from /dev/video0
+22:11:10.115: v4l2-input: Input: 0
+22:11:10.119: v4l2-input: Resolution: 640x480
+22:11:10.119: v4l2-input: Pixelformat: YUYV
+22:11:10.119: v4l2-input: Linesize: 1280 Bytes
+22:11:10.120: v4l2-input: Framerate: 30.00 fps
+22:11:10.121: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:10.263: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:10.265: v4l2-input: Start capture from /dev/video0
+22:11:10.267: v4l2-input: Input: 0
+22:11:10.270: v4l2-input: Resolution: 640x480
+22:11:10.270: v4l2-input: Pixelformat: YUYV
+22:11:10.270: v4l2-input: Linesize: 1280 Bytes
+22:11:10.272: v4l2-input: Framerate: 30.00 fps
+22:11:10.273: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:10.449: v4l2-input: /dev/video0: Stopped capture after 2 frames
+22:11:10.451: v4l2-input: Start capture from /dev/video0
+22:11:10.453: v4l2-input: Input: 0
+22:11:10.456: v4l2-input: Resolution: 640x480
+22:11:10.456: v4l2-input: Pixelformat: YUYV
+22:11:10.456: v4l2-input: Linesize: 1280 Bytes
+22:11:10.457: v4l2-input: Framerate: 30.00 fps
+22:11:10.459: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:10.601: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:10.603: v4l2-input: Start capture from /dev/video0
+22:11:10.605: v4l2-input: Input: 0
+22:11:10.608: v4l2-input: Resolution: 640x480
+22:11:10.608: v4l2-input: Pixelformat: YUYV
+22:11:10.608: v4l2-input: Linesize: 1280 Bytes
+22:11:10.610: v4l2-input: Framerate: 30.00 fps
+22:11:10.611: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:10.749: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:10.751: v4l2-input: Start capture from /dev/video0
+22:11:10.751: v4l2-input: Input: 0
+22:11:10.754: v4l2-input: Resolution: 640x480
+22:11:10.754: v4l2-input: Pixelformat: YUYV
+22:11:10.754: v4l2-input: Linesize: 1280 Bytes
+22:11:10.756: v4l2-input: Framerate: 30.00 fps
+22:11:10.757: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:10.925: v4l2-input: /dev/video0: select timed out
+22:11:10.925: v4l2-input: /dev/video0: failed to log status
+22:11:10.925: v4l2-input: /dev/video0: Stopped capture after 0 frames
+22:11:10.929: v4l2-input: Start capture from /dev/video0
+22:11:10.930: v4l2-input: Input: 0
+22:11:10.933: v4l2-input: Resolution: 640x480
+22:11:10.933: v4l2-input: Pixelformat: YUYV
+22:11:10.933: v4l2-input: Linesize: 1280 Bytes
+22:11:10.935: v4l2-input: Framerate: 30.00 fps
+22:11:10.936: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:11.491: v4l2-input: /dev/video0: Stopped capture after 13 frames
+22:11:11.493: v4l2-input: Start capture from /dev/video0
+22:11:11.494: v4l2-input: Input: 0
+22:11:11.497: v4l2-input: Resolution: 640x480
+22:11:11.497: v4l2-input: Pixelformat: YUYV
+22:11:11.497: v4l2-input: Linesize: 1280 Bytes
+22:11:11.498: v4l2-input: Framerate: 30.00 fps
+22:11:11.500: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:11.643: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:11.645: v4l2-input: Start capture from /dev/video0
+22:11:11.646: v4l2-input: Input: 0
+22:11:11.650: v4l2-input: Resolution: 640x480
+22:11:11.650: v4l2-input: Pixelformat: YUYV
+22:11:11.650: v4l2-input: Linesize: 1280 Bytes
+22:11:11.651: v4l2-input: Framerate: 30.00 fps
+22:11:11.652: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:11.821: v4l2-input: /dev/video0: select timed out
+22:11:11.822: v4l2-input: /dev/video0: failed to log status
+22:11:12.383: v4l2-input: /dev/video0: Stopped capture after 12 frames
+22:11:12.385: v4l2-input: Start capture from /dev/video0
+22:11:12.385: v4l2-input: Input: 0
+22:11:12.389: v4l2-input: Resolution: 640x480
+22:11:12.389: v4l2-input: Pixelformat: YUYV
+22:11:12.389: v4l2-input: Linesize: 1280 Bytes
+22:11:12.390: v4l2-input: Framerate: 30.00 fps
+22:11:12.392: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:12.535: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:12.537: v4l2-input: Start capture from /dev/video0
+22:11:12.537: v4l2-input: Input: 0
+22:11:12.540: v4l2-input: Resolution: 640x480
+22:11:12.541: v4l2-input: Pixelformat: YUYV
+22:11:12.541: v4l2-input: Linesize: 1280 Bytes
+22:11:12.542: v4l2-input: Framerate: 30.00 fps
+22:11:12.543: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:12.711: v4l2-input: /dev/video0: select timed out
+22:11:12.711: v4l2-input: /dev/video0: failed to log status
+22:11:12.711: v4l2-input: /dev/video0: Stopped capture after 0 frames
+22:11:12.713: v4l2-input: Start capture from /dev/video0
+22:11:12.714: v4l2-input: Input: 0
+22:11:12.722: v4l2-input: Resolution: 640x480
+22:11:12.722: v4l2-input: Pixelformat: YUYV
+22:11:12.722: v4l2-input: Linesize: 1280 Bytes
+22:11:12.726: v4l2-input: Framerate: 30.00 fps
+22:11:12.727: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:12.895: v4l2-input: /dev/video0: select timed out
+22:11:12.895: v4l2-input: /dev/video0: failed to log status
+22:11:13.201: v4l2-input: /dev/video0: Stopped capture after 9 frames
+22:11:13.203: v4l2-input: Start capture from /dev/video0
+22:11:13.203: v4l2-input: Input: 0
+22:11:13.207: v4l2-input: Resolution: 640x480
+22:11:13.207: v4l2-input: Pixelformat: YUYV
+22:11:13.207: v4l2-input: Linesize: 1280 Bytes
+22:11:13.208: v4l2-input: Framerate: 30.00 fps
+22:11:13.209: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:13.742: v4l2-input: /dev/video0: select timed out
+22:11:13.742: v4l2-input: /dev/video0: failed to log status
+22:11:23.315: v4l2-input: /dev/video0: Stopped capture after 261 frames
+22:11:23.317: v4l2-input: Start capture from /dev/video0
+22:11:23.317: v4l2-input: Input: 0
+22:11:23.321: v4l2-input: Resolution: 640x480
+22:11:23.321: v4l2-input: Pixelformat: YUYV
+22:11:23.321: v4l2-input: Linesize: 1280 Bytes
+22:11:23.322: v4l2-input: Framerate: 30.00 fps
+22:11:23.324: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:24.194: v4l2-input: /dev/video0: select timed out
+22:11:24.194: v4l2-input: /dev/video0: failed to log status
+22:11:24.815: v4l2-input: /dev/video0: Stopped capture after 31 frames
+22:11:24.817: v4l2-input: Start capture from /dev/video0
+22:11:24.818: v4l2-input: Input: 0
+22:11:24.821: v4l2-input: Resolution: 640x480
+22:11:24.821: v4l2-input: Pixelformat: YUYV
+22:11:24.821: v4l2-input: Linesize: 1280 Bytes
+22:11:24.822: v4l2-input: Framerate: 30.00 fps
+22:11:24.823: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:24.991: v4l2-input: /dev/video0: select timed out
+22:11:24.991: v4l2-input: /dev/video0: failed to log status
+22:11:26.081: v4l2-input: /dev/video0: Stopped capture after 26 frames
+22:11:26.083: v4l2-input: Start capture from /dev/video0
+22:11:26.084: v4l2-input: Input: 0
+22:11:26.087: v4l2-input: Resolution: 640x480
+22:11:26.087: v4l2-input: Pixelformat: YUYV
+22:11:26.087: v4l2-input: Linesize: 1280 Bytes
+22:11:26.088: v4l2-input: Framerate: 30.00 fps
+22:11:26.089: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:26.998: v4l2-input: /dev/video0: select timed out
+22:11:26.998: v4l2-input: /dev/video0: failed to log status
+22:11:27.087: v4l2-input: /dev/video0: Stopped capture after 18 frames
+22:11:27.089: v4l2-input: Start capture from /dev/video0
+22:11:27.089: v4l2-input: Input: 0
+22:11:27.093: v4l2-input: Resolution: 640x480
+22:11:27.093: v4l2-input: Pixelformat: YUYV
+22:11:27.093: v4l2-input: Linesize: 1280 Bytes
+22:11:27.094: v4l2-input: Framerate: 30.00 fps
+22:11:27.095: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:27.263: v4l2-input: /dev/video0: select timed out
+22:11:27.263: v4l2-input: /dev/video0: failed to log status
+22:11:35.141: v4l2-input: /dev/video0: Stopped capture after 207 frames
+22:11:35.143: v4l2-input: Start capture from /dev/video0
+22:11:35.144: v4l2-input: Input: 0
+22:11:35.148: v4l2-input: Resolution: 640x480
+22:11:35.148: v4l2-input: Pixelformat: YUYV
+22:11:35.148: v4l2-input: Linesize: 1280 Bytes
+22:11:35.150: v4l2-input: Framerate: 30.00 fps
+22:11:35.152: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:35.291: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:35.293: v4l2-input: Start capture from /dev/video0
+22:11:35.293: v4l2-input: Input: 0
+22:11:35.297: v4l2-input: Resolution: 640x480
+22:11:35.297: v4l2-input: Pixelformat: YUYV
+22:11:35.297: v4l2-input: Linesize: 1280 Bytes
+22:11:35.298: v4l2-input: Framerate: 30.00 fps
+22:11:35.299: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:35.439: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:35.441: v4l2-input: Start capture from /dev/video0
+22:11:35.441: v4l2-input: Input: 0
+22:11:35.445: v4l2-input: Resolution: 640x480
+22:11:35.445: v4l2-input: Pixelformat: YUYV
+22:11:35.445: v4l2-input: Linesize: 1280 Bytes
+22:11:35.446: v4l2-input: Framerate: 30.00 fps
+22:11:35.447: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:36.020: v4l2-input: /dev/video0: select timed out
+22:11:36.020: v4l2-input: /dev/video0: failed to log status
+22:11:38.581: v4l2-input: /dev/video0: Stopped capture after 75 frames
+22:11:38.583: v4l2-input: Start capture from /dev/video0
+22:11:38.584: v4l2-input: Input: 0
+22:11:38.590: v4l2-input: Resolution: 640x480
+22:11:38.590: v4l2-input: Pixelformat: YUYV
+22:11:38.590: v4l2-input: Linesize: 1280 Bytes
+22:11:38.593: v4l2-input: Framerate: 30.00 fps
+22:11:38.595: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:38.733: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:38.735: v4l2-input: Start capture from /dev/video0
+22:11:38.735: v4l2-input: Input: 0
+22:11:38.741: v4l2-input: Resolution: 640x480
+22:11:38.741: v4l2-input: Pixelformat: YUYV
+22:11:38.741: v4l2-input: Linesize: 1280 Bytes
+22:11:38.744: v4l2-input: Framerate: 30.00 fps
+22:11:38.745: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:38.883: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:38.885: v4l2-input: Start capture from /dev/video0
+22:11:38.886: v4l2-input: Input: 0
+22:11:38.892: v4l2-input: Resolution: 640x480
+22:11:38.892: v4l2-input: Pixelformat: YUYV
+22:11:38.892: v4l2-input: Linesize: 1280 Bytes
+22:11:38.895: v4l2-input: Framerate: 30.00 fps
+22:11:38.896: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:39.031: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:39.033: v4l2-input: Start capture from /dev/video0
+22:11:39.034: v4l2-input: Input: 0
+22:11:39.040: v4l2-input: Resolution: 640x480
+22:11:39.040: v4l2-input: Pixelformat: YUYV
+22:11:39.040: v4l2-input: Linesize: 1280 Bytes
+22:11:39.043: v4l2-input: Framerate: 30.00 fps
+22:11:39.045: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:39.183: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:39.185: v4l2-input: Start capture from /dev/video0
+22:11:39.186: v4l2-input: Input: 0
+22:11:39.192: v4l2-input: Resolution: 640x480
+22:11:39.192: v4l2-input: Pixelformat: YUYV
+22:11:39.192: v4l2-input: Linesize: 1280 Bytes
+22:11:39.195: v4l2-input: Framerate: 30.00 fps
+22:11:39.197: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:39.331: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:39.333: v4l2-input: Start capture from /dev/video0
+22:11:39.333: v4l2-input: Input: 0
+22:11:39.340: v4l2-input: Resolution: 640x480
+22:11:39.340: v4l2-input: Pixelformat: YUYV
+22:11:39.340: v4l2-input: Linesize: 1280 Bytes
+22:11:39.343: v4l2-input: Framerate: 30.00 fps
+22:11:39.344: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:39.514: v4l2-input: /dev/video0: select timed out
+22:11:39.514: v4l2-input: /dev/video0: failed to log status
+22:11:39.514: v4l2-input: /dev/video0: Stopped capture after 0 frames
+22:11:39.517: v4l2-input: Start capture from /dev/video0
+22:11:39.519: v4l2-input: Input: 0
+22:11:39.525: v4l2-input: Resolution: 640x480
+22:11:39.525: v4l2-input: Pixelformat: YUYV
+22:11:39.525: v4l2-input: Linesize: 1280 Bytes
+22:11:39.528: v4l2-input: Framerate: 30.00 fps
+22:11:39.529: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:39.587: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:39.589: v4l2-input: Start capture from /dev/video0
+22:11:39.589: v4l2-input: Input: 0
+22:11:39.595: v4l2-input: Resolution: 640x480
+22:11:39.595: v4l2-input: Pixelformat: YUYV
+22:11:39.595: v4l2-input: Linesize: 1280 Bytes
+22:11:39.598: v4l2-input: Framerate: 30.00 fps
+22:11:39.599: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:39.811: v4l2-input: /dev/video0: Stopped capture after 3 frames
+22:11:39.813: v4l2-input: Start capture from /dev/video0
+22:11:39.814: v4l2-input: Input: 0
+22:11:39.820: v4l2-input: Resolution: 640x480
+22:11:39.820: v4l2-input: Pixelformat: YUYV
+22:11:39.820: v4l2-input: Linesize: 1280 Bytes
+22:11:39.823: v4l2-input: Framerate: 30.00 fps
+22:11:39.824: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:39.963: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:39.965: v4l2-input: Start capture from /dev/video0
+22:11:39.965: v4l2-input: Input: 0
+22:11:39.971: v4l2-input: Resolution: 640x480
+22:11:39.971: v4l2-input: Pixelformat: YUYV
+22:11:39.971: v4l2-input: Linesize: 1280 Bytes
+22:11:39.974: v4l2-input: Framerate: 30.00 fps
+22:11:39.976: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:40.111: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:40.113: v4l2-input: Start capture from /dev/video0
+22:11:40.114: v4l2-input: Input: 0
+22:11:40.120: v4l2-input: Resolution: 640x480
+22:11:40.120: v4l2-input: Pixelformat: YUYV
+22:11:40.120: v4l2-input: Linesize: 1280 Bytes
+22:11:40.123: v4l2-input: Framerate: 30.00 fps
+22:11:40.126: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:40.428: v4l2-input: /dev/video0: select timed out
+22:11:40.428: v4l2-input: /dev/video0: failed to log status
+22:11:41.717: v4l2-input: /dev/video0: Stopped capture after 34 frames
+22:11:41.719: v4l2-input: Start capture from /dev/video0
+22:11:41.720: v4l2-input: Input: 0
+22:11:41.726: v4l2-input: Resolution: 640x480
+22:11:41.726: v4l2-input: Pixelformat: YUYV
+22:11:41.726: v4l2-input: Linesize: 1280 Bytes
+22:11:41.729: v4l2-input: Framerate: 30.00 fps
+22:11:41.730: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:41.865: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:41.867: v4l2-input: Start capture from /dev/video0
+22:11:41.868: v4l2-input: Input: 0
+22:11:41.874: v4l2-input: Resolution: 640x480
+22:11:41.874: v4l2-input: Pixelformat: YUYV
+22:11:41.874: v4l2-input: Linesize: 1280 Bytes
+22:11:41.877: v4l2-input: Framerate: 30.00 fps
+22:11:41.878: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:41.881: v4l2-input: /dev/video0: Stopped capture after 0 frames
+22:11:41.883: v4l2-input: Start capture from /dev/video0
+22:11:41.884: v4l2-input: Input: 0
+22:11:41.890: v4l2-input: Resolution: 640x480
+22:11:41.891: v4l2-input: Pixelformat: YUYV
+22:11:41.891: v4l2-input: Linesize: 1280 Bytes
+22:11:41.893: v4l2-input: Framerate: 30.00 fps
+22:11:41.894: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:42.017: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:42.019: v4l2-input: Start capture from /dev/video0
+22:11:42.020: v4l2-input: Input: 0
+22:11:42.026: v4l2-input: Resolution: 640x480
+22:11:42.026: v4l2-input: Pixelformat: YUYV
+22:11:42.026: v4l2-input: Linesize: 1280 Bytes
+22:11:42.029: v4l2-input: Framerate: 30.00 fps
+22:11:42.030: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:42.632: v4l2-input: /dev/video0: select timed out
+22:11:42.632: v4l2-input: /dev/video0: failed to log status
+22:11:43.321: v4l2-input: /dev/video0: Stopped capture after 26 frames
+22:11:43.323: v4l2-input: Start capture from /dev/video0
+22:11:43.324: v4l2-input: Input: 0
+22:11:43.330: v4l2-input: Resolution: 640x480
+22:11:43.330: v4l2-input: Pixelformat: YUYV
+22:11:43.330: v4l2-input: Linesize: 1280 Bytes
+22:11:43.333: v4l2-input: Framerate: 30.00 fps
+22:11:43.334: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:43.473: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:43.475: v4l2-input: Start capture from /dev/video0
+22:11:43.477: v4l2-input: Input: 0
+22:11:43.483: v4l2-input: Resolution: 640x480
+22:11:43.483: v4l2-input: Pixelformat: YUYV
+22:11:43.483: v4l2-input: Linesize: 1280 Bytes
+22:11:43.486: v4l2-input: Framerate: 30.00 fps
+22:11:43.486: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:43.621: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:43.623: v4l2-input: Start capture from /dev/video0
+22:11:43.624: v4l2-input: Input: 0
+22:11:43.630: v4l2-input: Resolution: 640x480
+22:11:43.630: v4l2-input: Pixelformat: YUYV
+22:11:43.630: v4l2-input: Linesize: 1280 Bytes
+22:11:43.634: v4l2-input: Framerate: 30.00 fps
+22:11:43.635: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:44.276: v4l2-input: /dev/video0: select timed out
+22:11:44.276: v4l2-input: /dev/video0: failed to log status
+22:11:45.637: v4l2-input: /dev/video0: Stopped capture after 45 frames
+22:11:45.639: v4l2-input: Start capture from /dev/video0
+22:11:45.640: v4l2-input: Input: 0
+22:11:45.646: v4l2-input: Resolution: 640x480
+22:11:45.646: v4l2-input: Pixelformat: YUYV
+22:11:45.646: v4l2-input: Linesize: 1280 Bytes
+22:11:45.649: v4l2-input: Framerate: 30.00 fps
+22:11:45.650: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:45.789: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:45.791: v4l2-input: Start capture from /dev/video0
+22:11:45.792: v4l2-input: Input: 0
+22:11:45.798: v4l2-input: Resolution: 640x480
+22:11:45.798: v4l2-input: Pixelformat: YUYV
+22:11:45.798: v4l2-input: Linesize: 1280 Bytes
+22:11:45.801: v4l2-input: Framerate: 30.00 fps
+22:11:45.802: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:45.937: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:45.939: v4l2-input: Start capture from /dev/video0
+22:11:45.939: v4l2-input: Input: 0
+22:11:45.945: v4l2-input: Resolution: 640x480
+22:11:45.945: v4l2-input: Pixelformat: YUYV
+22:11:45.945: v4l2-input: Linesize: 1280 Bytes
+22:11:45.948: v4l2-input: Framerate: 30.00 fps
+22:11:45.949: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:46.277: v4l2-input: /dev/video0: Stopped capture after 6 frames
+22:11:46.279: v4l2-input: Start capture from /dev/video0
+22:11:46.279: v4l2-input: Input: 0
+22:11:46.285: v4l2-input: Resolution: 640x480
+22:11:46.285: v4l2-input: Pixelformat: YUYV
+22:11:46.285: v4l2-input: Linesize: 1280 Bytes
+22:11:46.288: v4l2-input: Framerate: 30.00 fps
+22:11:46.290: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:46.460: v4l2-input: /dev/video0: select timed out
+22:11:46.460: v4l2-input: /dev/video0: failed to log status
+22:11:47.809: v4l2-input: /dev/video0: Stopped capture after 33 frames
+22:11:47.811: v4l2-input: Start capture from /dev/video0
+22:11:47.812: v4l2-input: Input: 0
+22:11:47.815: v4l2-input: Resolution: 640x480
+22:11:47.815: v4l2-input: Pixelformat: YUYV
+22:11:47.815: v4l2-input: Linesize: 1280 Bytes
+22:11:47.816: v4l2-input: Framerate: 30.00 fps
+22:11:47.818: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:47.957: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:47.959: v4l2-input: Start capture from /dev/video0
+22:11:47.960: v4l2-input: Input: 0
+22:11:47.963: v4l2-input: Resolution: 640x480
+22:11:47.963: v4l2-input: Pixelformat: YUYV
+22:11:47.963: v4l2-input: Linesize: 1280 Bytes
+22:11:47.965: v4l2-input: Framerate: 30.00 fps
+22:11:47.965: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:48.109: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:48.111: v4l2-input: Start capture from /dev/video0
+22:11:48.112: v4l2-input: Input: 0
+22:11:48.115: v4l2-input: Resolution: 640x480
+22:11:48.115: v4l2-input: Pixelformat: YUYV
+22:11:48.115: v4l2-input: Linesize: 1280 Bytes
+22:11:48.117: v4l2-input: Framerate: 30.00 fps
+22:11:48.118: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:48.257: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:48.259: v4l2-input: Start capture from /dev/video0
+22:11:48.259: v4l2-input: Input: 0
+22:11:48.262: v4l2-input: Resolution: 640x480
+22:11:48.262: v4l2-input: Pixelformat: YUYV
+22:11:48.262: v4l2-input: Linesize: 1280 Bytes
+22:11:48.264: v4l2-input: Framerate: 30.00 fps
+22:11:48.265: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:48.686: v4l2-input: /dev/video0: select timed out
+22:11:48.686: v4l2-input: /dev/video0: failed to log status
+22:11:48.815: v4l2-input: /dev/video0: Stopped capture after 6 frames
+22:11:48.817: v4l2-input: Start capture from /dev/video0
+22:11:48.818: v4l2-input: Input: 0
+22:11:48.821: v4l2-input: Resolution: 640x480
+22:11:48.821: v4l2-input: Pixelformat: YUYV
+22:11:48.821: v4l2-input: Linesize: 1280 Bytes
+22:11:48.823: v4l2-input: Framerate: 30.00 fps
+22:11:48.823: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:48.967: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:48.969: v4l2-input: Start capture from /dev/video0
+22:11:48.970: v4l2-input: Input: 0
+22:11:48.974: v4l2-input: Resolution: 640x480
+22:11:48.974: v4l2-input: Pixelformat: YUYV
+22:11:48.974: v4l2-input: Linesize: 1280 Bytes
+22:11:48.975: v4l2-input: Framerate: 30.00 fps
+22:11:48.976: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:49.115: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:49.117: v4l2-input: Start capture from /dev/video0
+22:11:49.117: v4l2-input: Input: 0
+22:11:49.120: v4l2-input: Resolution: 640x480
+22:11:49.120: v4l2-input: Pixelformat: YUYV
+22:11:49.120: v4l2-input: Linesize: 1280 Bytes
+22:11:49.122: v4l2-input: Framerate: 30.00 fps
+22:11:49.123: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:49.620: v4l2-input: /dev/video0: select timed out
+22:11:49.620: v4l2-input: /dev/video0: failed to log status
+22:11:49.781: v4l2-input: /dev/video0: Stopped capture after 9 frames
+22:11:49.783: v4l2-input: Start capture from /dev/video0
+22:11:49.784: v4l2-input: Input: 0
+22:11:49.788: v4l2-input: Resolution: 640x480
+22:11:49.788: v4l2-input: Pixelformat: YUYV
+22:11:49.788: v4l2-input: Linesize: 1280 Bytes
+22:11:49.789: v4l2-input: Framerate: 30.00 fps
+22:11:49.791: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:49.931: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:49.933: v4l2-input: Start capture from /dev/video0
+22:11:49.934: v4l2-input: Input: 0
+22:11:49.938: v4l2-input: Resolution: 640x480
+22:11:49.938: v4l2-input: Pixelformat: YUYV
+22:11:49.938: v4l2-input: Linesize: 1280 Bytes
+22:11:49.940: v4l2-input: Framerate: 30.00 fps
+22:11:49.940: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:50.083: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:50.085: v4l2-input: Start capture from /dev/video0
+22:11:50.086: v4l2-input: Input: 0
+22:11:50.089: v4l2-input: Resolution: 640x480
+22:11:50.089: v4l2-input: Pixelformat: YUYV
+22:11:50.089: v4l2-input: Linesize: 1280 Bytes
+22:11:50.091: v4l2-input: Framerate: 30.00 fps
+22:11:50.092: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:50.231: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:50.233: v4l2-input: Start capture from /dev/video0
+22:11:50.233: v4l2-input: Input: 0
+22:11:50.236: v4l2-input: Resolution: 640x480
+22:11:50.236: v4l2-input: Pixelformat: YUYV
+22:11:50.236: v4l2-input: Linesize: 1280 Bytes
+22:11:50.238: v4l2-input: Framerate: 30.00 fps
+22:11:50.239: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:50.548: v4l2-input: /dev/video0: select timed out
+22:11:50.548: v4l2-input: /dev/video0: failed to log status
+22:11:50.749: v4l2-input: /dev/video0: Stopped capture after 5 frames
+22:11:50.751: v4l2-input: Start capture from /dev/video0
+22:11:50.752: v4l2-input: Input: 0
+22:11:50.755: v4l2-input: Resolution: 640x480
+22:11:50.755: v4l2-input: Pixelformat: YUYV
+22:11:50.755: v4l2-input: Linesize: 1280 Bytes
+22:11:50.756: v4l2-input: Framerate: 30.00 fps
+22:11:50.757: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:50.899: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:50.901: v4l2-input: Start capture from /dev/video0
+22:11:50.902: v4l2-input: Input: 0
+22:11:50.905: v4l2-input: Resolution: 640x480
+22:11:50.905: v4l2-input: Pixelformat: YUYV
+22:11:50.905: v4l2-input: Linesize: 1280 Bytes
+22:11:50.907: v4l2-input: Framerate: 30.00 fps
+22:11:50.908: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:51.047: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:51.049: v4l2-input: Start capture from /dev/video0
+22:11:51.049: v4l2-input: Input: 0
+22:11:51.052: v4l2-input: Resolution: 640x480
+22:11:51.053: v4l2-input: Pixelformat: YUYV
+22:11:51.053: v4l2-input: Linesize: 1280 Bytes
+22:11:51.054: v4l2-input: Framerate: 30.00 fps
+22:11:51.055: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:51.197: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:51.199: v4l2-input: Start capture from /dev/video0
+22:11:51.200: v4l2-input: Input: 0
+22:11:51.204: v4l2-input: Resolution: 640x480
+22:11:51.204: v4l2-input: Pixelformat: YUYV
+22:11:51.204: v4l2-input: Linesize: 1280 Bytes
+22:11:51.206: v4l2-input: Framerate: 30.00 fps
+22:11:51.207: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:51.375: v4l2-input: /dev/video0: select timed out
+22:11:51.375: v4l2-input: /dev/video0: failed to log status
+22:11:51.375: v4l2-input: /dev/video0: Stopped capture after 0 frames
+22:11:51.377: v4l2-input: Start capture from /dev/video0
+22:11:51.378: v4l2-input: Input: 0
+22:11:51.384: v4l2-input: Resolution: 640x480
+22:11:51.384: v4l2-input: Pixelformat: YUYV
+22:11:51.384: v4l2-input: Linesize: 1280 Bytes
+22:11:51.387: v4l2-input: Framerate: 30.00 fps
+22:11:51.388: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:51.558: v4l2-input: /dev/video0: select timed out
+22:11:51.558: v4l2-input: /dev/video0: failed to log status
+22:11:51.558: v4l2-input: /dev/video0: Stopped capture after 0 frames
+22:11:51.561: v4l2-input: Start capture from /dev/video0
+22:11:51.561: v4l2-input: Input: 0
+22:11:51.565: v4l2-input: Resolution: 640x480
+22:11:51.565: v4l2-input: Pixelformat: YUYV
+22:11:51.565: v4l2-input: Linesize: 1280 Bytes
+22:11:51.566: v4l2-input: Framerate: 30.00 fps
+22:11:51.567: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:51.679: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:51.681: v4l2-input: Start capture from /dev/video0
+22:11:51.681: v4l2-input: Input: 0
+22:11:51.685: v4l2-input: Resolution: 640x480
+22:11:51.685: v4l2-input: Pixelformat: YUYV
+22:11:51.685: v4l2-input: Linesize: 1280 Bytes
+22:11:51.686: v4l2-input: Framerate: 30.00 fps
+22:11:51.687: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:51.829: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:51.833: v4l2-input: Start capture from /dev/video0
+22:11:51.834: v4l2-input: Input: 0
+22:11:51.837: v4l2-input: Resolution: 640x480
+22:11:51.837: v4l2-input: Pixelformat: YUYV
+22:11:51.837: v4l2-input: Linesize: 1280 Bytes
+22:11:51.839: v4l2-input: Framerate: 30.00 fps
+22:11:51.840: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:51.979: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:51.981: v4l2-input: Start capture from /dev/video0
+22:11:51.982: v4l2-input: Input: 0
+22:11:51.985: v4l2-input: Resolution: 640x480
+22:11:51.985: v4l2-input: Pixelformat: YUYV
+22:11:51.985: v4l2-input: Linesize: 1280 Bytes
+22:11:51.987: v4l2-input: Framerate: 30.00 fps
+22:11:51.987: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:52.127: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:52.129: v4l2-input: Start capture from /dev/video0
+22:11:52.129: v4l2-input: Input: 0
+22:11:52.132: v4l2-input: Resolution: 640x480
+22:11:52.132: v4l2-input: Pixelformat: YUYV
+22:11:52.132: v4l2-input: Linesize: 1280 Bytes
+22:11:52.134: v4l2-input: Framerate: 30.00 fps
+22:11:52.135: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:52.304: v4l2-input: /dev/video0: select timed out
+22:11:52.304: v4l2-input: /dev/video0: failed to log status
+22:11:52.304: v4l2-input: /dev/video0: Stopped capture after 0 frames
+22:11:52.307: v4l2-input: Start capture from /dev/video0
+22:11:52.307: v4l2-input: Input: 0
+22:11:52.313: v4l2-input: Resolution: 640x480
+22:11:52.314: v4l2-input: Pixelformat: YUYV
+22:11:52.314: v4l2-input: Linesize: 1280 Bytes
+22:11:52.318: v4l2-input: Framerate: 30.00 fps
+22:11:52.318: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:52.488: v4l2-input: /dev/video0: select timed out
+22:11:52.488: v4l2-input: /dev/video0: failed to log status
+22:11:53.133: v4l2-input: /dev/video0: Stopped capture after 18 frames
+22:11:53.135: v4l2-input: Start capture from /dev/video0
+22:11:53.135: v4l2-input: Input: 0
+22:11:53.138: v4l2-input: Resolution: 640x480
+22:11:53.138: v4l2-input: Pixelformat: YUYV
+22:11:53.138: v4l2-input: Linesize: 1280 Bytes
+22:11:53.140: v4l2-input: Framerate: 30.00 fps
+22:11:53.141: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:53.309: v4l2-input: /dev/video0: select timed out
+22:11:53.309: v4l2-input: /dev/video0: failed to log status
+22:11:53.310: v4l2-input: /dev/video0: Stopped capture after 0 frames
+22:11:53.313: v4l2-input: Start capture from /dev/video0
+22:11:53.313: v4l2-input: Input: 0
+22:11:53.318: v4l2-input: Resolution: 640x480
+22:11:53.318: v4l2-input: Pixelformat: YUYV
+22:11:53.318: v4l2-input: Linesize: 1280 Bytes
+22:11:53.320: v4l2-input: Framerate: 30.00 fps
+22:11:53.320: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:53.423: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:53.427: v4l2-input: Start capture from /dev/video0
+22:11:53.427: v4l2-input: Input: 0
+22:11:53.430: v4l2-input: Resolution: 640x480
+22:11:53.430: v4l2-input: Pixelformat: YUYV
+22:11:53.430: v4l2-input: Linesize: 1280 Bytes
+22:11:53.432: v4l2-input: Framerate: 30.00 fps
+22:11:53.433: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:53.911: v4l2-input: /dev/video0: Stopped capture after 10 frames
+22:11:53.913: v4l2-input: Start capture from /dev/video0
+22:11:53.914: v4l2-input: Input: 0
+22:11:53.918: v4l2-input: Resolution: 640x480
+22:11:53.918: v4l2-input: Pixelformat: YUYV
+22:11:53.918: v4l2-input: Linesize: 1280 Bytes
+22:11:53.919: v4l2-input: Framerate: 30.00 fps
+22:11:53.920: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:54.266: v4l2-input: /dev/video0: select timed out
+22:11:54.266: v4l2-input: /dev/video0: failed to log status
+22:11:54.691: v4l2-input: /dev/video0: Stopped capture after 12 frames
+22:11:54.693: v4l2-input: Start capture from /dev/video0
+22:11:54.694: v4l2-input: Input: 0
+22:11:54.697: v4l2-input: Resolution: 640x480
+22:11:54.697: v4l2-input: Pixelformat: YUYV
+22:11:54.697: v4l2-input: Linesize: 1280 Bytes
+22:11:54.699: v4l2-input: Framerate: 30.00 fps
+22:11:54.700: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:54.843: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:54.845: v4l2-input: Start capture from /dev/video0
+22:11:54.847: v4l2-input: Input: 0
+22:11:54.850: v4l2-input: Resolution: 640x480
+22:11:54.850: v4l2-input: Pixelformat: YUYV
+22:11:54.850: v4l2-input: Linesize: 1280 Bytes
+22:11:54.851: v4l2-input: Framerate: 30.00 fps
+22:11:54.852: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:54.991: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:54.993: v4l2-input: Start capture from /dev/video0
+22:11:54.994: v4l2-input: Input: 0
+22:11:54.997: v4l2-input: Resolution: 640x480
+22:11:54.997: v4l2-input: Pixelformat: YUYV
+22:11:54.997: v4l2-input: Linesize: 1280 Bytes
+22:11:54.998: v4l2-input: Framerate: 30.00 fps
+22:11:54.999: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:55.167: v4l2-input: /dev/video0: select timed out
+22:11:55.168: v4l2-input: /dev/video0: failed to log status
+22:11:55.168: v4l2-input: /dev/video0: Stopped capture after 0 frames
+22:11:55.171: v4l2-input: Start capture from /dev/video0
+22:11:55.172: v4l2-input: Input: 0
+22:11:55.177: v4l2-input: Resolution: 640x480
+22:11:55.177: v4l2-input: Pixelformat: YUYV
+22:11:55.177: v4l2-input: Linesize: 1280 Bytes
+22:11:55.179: v4l2-input: Framerate: 30.00 fps
+22:11:55.180: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:55.183: v4l2-input: /dev/video0: Stopped capture after 0 frames
+22:11:55.185: v4l2-input: Start capture from /dev/video0
+22:11:55.187: v4l2-input: Input: 0
+22:11:55.191: v4l2-input: Resolution: 640x480
+22:11:55.191: v4l2-input: Pixelformat: YUYV
+22:11:55.191: v4l2-input: Linesize: 1280 Bytes
+22:11:55.193: v4l2-input: Framerate: 30.00 fps
+22:11:55.194: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:55.364: v4l2-input: /dev/video0: select timed out
+22:11:55.364: v4l2-input: /dev/video0: failed to log status
+22:11:55.364: v4l2-input: /dev/video0: Stopped capture after 0 frames
+22:11:55.367: v4l2-input: Start capture from /dev/video0
+22:11:55.368: v4l2-input: Input: 0
+22:11:55.371: v4l2-input: Resolution: 640x480
+22:11:55.371: v4l2-input: Pixelformat: YUYV
+22:11:55.371: v4l2-input: Linesize: 1280 Bytes
+22:11:55.373: v4l2-input: Framerate: 30.00 fps
+22:11:55.374: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:55.453: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:55.455: v4l2-input: Start capture from /dev/video0
+22:11:55.456: v4l2-input: Input: 0
+22:11:55.459: v4l2-input: Resolution: 640x480
+22:11:55.459: v4l2-input: Pixelformat: YUYV
+22:11:55.459: v4l2-input: Linesize: 1280 Bytes
+22:11:55.461: v4l2-input: Framerate: 30.00 fps
+22:11:55.462: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:55.605: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:55.607: v4l2-input: Start capture from /dev/video0
+22:11:55.608: v4l2-input: Input: 0
+22:11:55.612: v4l2-input: Resolution: 640x480
+22:11:55.612: v4l2-input: Pixelformat: YUYV
+22:11:55.612: v4l2-input: Linesize: 1280 Bytes
+22:11:55.613: v4l2-input: Framerate: 30.00 fps
+22:11:55.615: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:55.753: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:55.755: v4l2-input: Start capture from /dev/video0
+22:11:55.756: v4l2-input: Input: 0
+22:11:55.759: v4l2-input: Resolution: 640x480
+22:11:55.759: v4l2-input: Pixelformat: YUYV
+22:11:55.759: v4l2-input: Linesize: 1280 Bytes
+22:11:55.761: v4l2-input: Framerate: 30.00 fps
+22:11:55.762: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:56.295: v4l2-input: /dev/video0: select timed out
+22:11:56.296: v4l2-input: /dev/video0: failed to log status
+22:11:56.296: v4l2-input: /dev/video0: Stopped capture after 7 frames
+22:11:56.299: v4l2-input: Start capture from /dev/video0
+22:11:56.299: v4l2-input: Input: 0
+22:11:56.303: v4l2-input: Resolution: 640x480
+22:11:56.303: v4l2-input: Pixelformat: YUYV
+22:11:56.303: v4l2-input: Linesize: 1280 Bytes
+22:11:56.304: v4l2-input: Framerate: 30.00 fps
+22:11:56.305: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:56.383: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:56.385: v4l2-input: Start capture from /dev/video0
+22:11:56.385: v4l2-input: Input: 0
+22:11:56.389: v4l2-input: Resolution: 640x480
+22:11:56.389: v4l2-input: Pixelformat: YUYV
+22:11:56.389: v4l2-input: Linesize: 1280 Bytes
+22:11:56.390: v4l2-input: Framerate: 30.00 fps
+22:11:56.391: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:56.533: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:56.535: v4l2-input: Start capture from /dev/video0
+22:11:56.535: v4l2-input: Input: 0
+22:11:56.539: v4l2-input: Resolution: 640x480
+22:11:56.539: v4l2-input: Pixelformat: YUYV
+22:11:56.539: v4l2-input: Linesize: 1280 Bytes
+22:11:56.541: v4l2-input: Framerate: 30.00 fps
+22:11:56.542: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:57.057: v4l2-input: /dev/video0: Stopped capture after 11 frames
+22:11:57.059: v4l2-input: Start capture from /dev/video0
+22:11:57.059: v4l2-input: Input: 0
+22:11:57.064: v4l2-input: Resolution: 640x480
+22:11:57.064: v4l2-input: Pixelformat: YUYV
+22:11:57.064: v4l2-input: Linesize: 1280 Bytes
+22:11:57.066: v4l2-input: Framerate: 30.00 fps
+22:11:57.067: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:57.237: v4l2-input: /dev/video0: select timed out
+22:11:57.237: v4l2-input: /dev/video0: failed to log status
+22:11:57.237: v4l2-input: /dev/video0: Stopped capture after 0 frames
+22:11:57.239: v4l2-input: Start capture from /dev/video0
+22:11:57.239: v4l2-input: Input: 0
+22:11:57.242: v4l2-input: Resolution: 640x480
+22:11:57.242: v4l2-input: Pixelformat: YUYV
+22:11:57.242: v4l2-input: Linesize: 1280 Bytes
+22:11:57.244: v4l2-input: Framerate: 30.00 fps
+22:11:57.245: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:57.315: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:57.317: v4l2-input: Start capture from /dev/video0
+22:11:57.318: v4l2-input: Input: 0
+22:11:57.321: v4l2-input: Resolution: 640x480
+22:11:57.321: v4l2-input: Pixelformat: YUYV
+22:11:57.321: v4l2-input: Linesize: 1280 Bytes
+22:11:57.323: v4l2-input: Framerate: 30.00 fps
+22:11:57.323: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:57.463: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:57.465: v4l2-input: Start capture from /dev/video0
+22:11:57.466: v4l2-input: Input: 0
+22:11:57.470: v4l2-input: Resolution: 640x480
+22:11:57.470: v4l2-input: Pixelformat: YUYV
+22:11:57.470: v4l2-input: Linesize: 1280 Bytes
+22:11:57.471: v4l2-input: Framerate: 30.00 fps
+22:11:57.472: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:58.158: v4l2-input: /dev/video0: select timed out
+22:11:58.158: v4l2-input: /dev/video0: failed to log status
+22:11:58.543: v4l2-input: /dev/video0: Stopped capture after 20 frames
+22:11:58.545: v4l2-input: Start capture from /dev/video0
+22:11:58.546: v4l2-input: Input: 0
+22:11:58.550: v4l2-input: Resolution: 640x480
+22:11:58.550: v4l2-input: Pixelformat: YUYV
+22:11:58.550: v4l2-input: Linesize: 1280 Bytes
+22:11:58.551: v4l2-input: Framerate: 30.00 fps
+22:11:58.552: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:58.695: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:58.697: v4l2-input: Start capture from /dev/video0
+22:11:58.698: v4l2-input: Input: 0
+22:11:58.701: v4l2-input: Resolution: 640x480
+22:11:58.701: v4l2-input: Pixelformat: YUYV
+22:11:58.701: v4l2-input: Linesize: 1280 Bytes
+22:11:58.703: v4l2-input: Framerate: 30.00 fps
+22:11:58.703: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:58.843: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:11:58.845: v4l2-input: Start capture from /dev/video0
+22:11:58.845: v4l2-input: Input: 0
+22:11:58.848: v4l2-input: Resolution: 640x480
+22:11:58.848: v4l2-input: Pixelformat: YUYV
+22:11:58.848: v4l2-input: Linesize: 1280 Bytes
+22:11:58.850: v4l2-input: Framerate: 30.00 fps
+22:11:58.851: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:59.020: v4l2-input: /dev/video0: select timed out
+22:11:59.020: v4l2-input: /dev/video0: failed to log status
+22:11:59.737: v4l2-input: /dev/video0: Stopped capture after 16 frames
+22:11:59.739: v4l2-input: Start capture from /dev/video0
+22:11:59.740: v4l2-input: Input: 0
+22:11:59.743: v4l2-input: Resolution: 640x480
+22:11:59.743: v4l2-input: Pixelformat: YUYV
+22:11:59.743: v4l2-input: Linesize: 1280 Bytes
+22:11:59.744: v4l2-input: Framerate: 30.00 fps
+22:11:59.745: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:11:59.913: v4l2-input: /dev/video0: select timed out
+22:11:59.913: v4l2-input: /dev/video0: failed to log status
+22:12:00.080: v4l2-input: /dev/video0: select timed out
+22:12:00.080: v4l2-input: /dev/video0: failed to log status
+22:12:10.375: v4l2-input: /dev/video0: Stopped capture after 275 frames
+22:12:10.377: v4l2-input: Start capture from /dev/video0
+22:12:10.377: v4l2-input: Input: 0
+22:12:10.380: v4l2-input: Resolution: 640x480
+22:12:10.380: v4l2-input: Pixelformat: YUYV
+22:12:10.380: v4l2-input: Linesize: 1280 Bytes
+22:12:10.382: v4l2-input: Framerate: 30.00 fps
+22:12:10.383: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:10.527: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:12:10.529: v4l2-input: Start capture from /dev/video0
+22:12:10.530: v4l2-input: Input: 0
+22:12:10.533: v4l2-input: Resolution: 640x480
+22:12:10.533: v4l2-input: Pixelformat: YUYV
+22:12:10.533: v4l2-input: Linesize: 1280 Bytes
+22:12:10.535: v4l2-input: Framerate: 30.00 fps
+22:12:10.536: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:11.254: v4l2-input: /dev/video0: select timed out
+22:12:11.254: v4l2-input: /dev/video0: failed to log status
+22:12:11.254: v4l2-input: /dev/video0: Stopped capture after 12 frames
+22:12:11.257: v4l2-input: Start capture from /dev/video0
+22:12:11.258: v4l2-input: Input: 0
+22:12:11.262: v4l2-input: Resolution: 640x480
+22:12:11.262: v4l2-input: Pixelformat: YUYV
+22:12:11.262: v4l2-input: Linesize: 1280 Bytes
+22:12:11.264: v4l2-input: Framerate: 30.00 fps
+22:12:11.264: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:11.433: v4l2-input: /dev/video0: select timed out
+22:12:11.434: v4l2-input: /dev/video0: failed to log status
+22:12:12.087: v4l2-input: /dev/video0: Stopped capture after 16 frames
+22:12:12.089: v4l2-input: Start capture from /dev/video0
+22:12:12.089: v4l2-input: Input: 0
+22:12:12.093: v4l2-input: Resolution: 640x480
+22:12:12.093: v4l2-input: Pixelformat: YUYV
+22:12:12.093: v4l2-input: Linesize: 1280 Bytes
+22:12:12.094: v4l2-input: Framerate: 30.00 fps
+22:12:12.095: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:12.263: v4l2-input: /dev/video0: select timed out
+22:12:12.263: v4l2-input: /dev/video0: failed to log status
+22:12:12.430: v4l2-input: /dev/video0: select timed out
+22:12:12.430: v4l2-input: /dev/video0: failed to log status
+22:12:14.889: v4l2-input: /dev/video0: Stopped capture after 66 frames
+22:12:14.891: v4l2-input: Start capture from /dev/video0
+22:12:14.892: v4l2-input: Input: 0
+22:12:14.896: v4l2-input: Resolution: 640x480
+22:12:14.896: v4l2-input: Pixelformat: YUYV
+22:12:14.896: v4l2-input: Linesize: 1280 Bytes
+22:12:14.897: v4l2-input: Framerate: 30.00 fps
+22:12:14.899: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:15.768: v4l2-input: /dev/video0: select timed out
+22:12:15.768: v4l2-input: /dev/video0: failed to log status
+22:12:15.989: v4l2-input: /dev/video0: Stopped capture after 20 frames
+22:12:15.991: v4l2-input: Start capture from /dev/video0
+22:12:15.992: v4l2-input: Input: 0
+22:12:15.996: v4l2-input: Resolution: 640x480
+22:12:15.996: v4l2-input: Pixelformat: YUYV
+22:12:15.996: v4l2-input: Linesize: 1280 Bytes
+22:12:15.997: v4l2-input: Framerate: 30.00 fps
+22:12:15.999: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:16.903: v4l2-input: /dev/video0: select timed out
+22:12:16.903: v4l2-input: /dev/video0: failed to log status
+22:12:19.577: v4l2-input: /dev/video0: Stopped capture after 87 frames
+22:12:19.580: v4l2-input: Start capture from /dev/video0
+22:12:19.581: v4l2-input: Input: 0
+22:12:19.585: v4l2-input: Resolution: 640x480
+22:12:19.585: v4l2-input: Pixelformat: YUYV
+22:12:19.585: v4l2-input: Linesize: 1280 Bytes
+22:12:19.588: v4l2-input: Framerate: 30.00 fps
+22:12:19.589: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:19.727: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:12:19.729: v4l2-input: Start capture from /dev/video0
+22:12:19.729: v4l2-input: Input: 0
+22:12:19.733: v4l2-input: Resolution: 640x480
+22:12:19.733: v4l2-input: Pixelformat: YUYV
+22:12:19.733: v4l2-input: Linesize: 1280 Bytes
+22:12:19.734: v4l2-input: Framerate: 30.00 fps
+22:12:19.736: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:19.879: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:12:19.881: v4l2-input: Start capture from /dev/video0
+22:12:19.882: v4l2-input: Input: 0
+22:12:19.886: v4l2-input: Resolution: 640x480
+22:12:19.886: v4l2-input: Pixelformat: YUYV
+22:12:19.886: v4l2-input: Linesize: 1280 Bytes
+22:12:19.888: v4l2-input: Framerate: 30.00 fps
+22:12:19.889: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:20.027: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:12:20.030: v4l2-input: Start capture from /dev/video0
+22:12:20.031: v4l2-input: Input: 0
+22:12:20.035: v4l2-input: Resolution: 640x480
+22:12:20.035: v4l2-input: Pixelformat: YUYV
+22:12:20.035: v4l2-input: Linesize: 1280 Bytes
+22:12:20.036: v4l2-input: Framerate: 30.00 fps
+22:12:20.037: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:20.179: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:12:20.181: v4l2-input: Start capture from /dev/video0
+22:12:20.181: v4l2-input: Input: 0
+22:12:20.184: v4l2-input: Resolution: 640x480
+22:12:20.184: v4l2-input: Pixelformat: YUYV
+22:12:20.184: v4l2-input: Linesize: 1280 Bytes
+22:12:20.186: v4l2-input: Framerate: 30.00 fps
+22:12:20.187: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:20.356: v4l2-input: /dev/video0: select timed out
+22:12:20.356: v4l2-input: /dev/video0: failed to log status
+22:12:20.523: v4l2-input: /dev/video0: select timed out
+22:12:20.523: v4l2-input: /dev/video0: failed to log status
+22:12:21.633: v4l2-input: /dev/video0: Stopped capture after 30 frames
+22:12:21.635: v4l2-input: Start capture from /dev/video0
+22:12:21.636: v4l2-input: Input: 0
+22:12:21.639: v4l2-input: Resolution: 640x480
+22:12:21.639: v4l2-input: Pixelformat: YUYV
+22:12:21.639: v4l2-input: Linesize: 1280 Bytes
+22:12:21.640: v4l2-input: Framerate: 30.00 fps
+22:12:21.641: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:21.783: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:12:21.785: v4l2-input: Start capture from /dev/video0
+22:12:21.785: v4l2-input: Input: 0
+22:12:21.788: v4l2-input: Resolution: 640x480
+22:12:21.788: v4l2-input: Pixelformat: YUYV
+22:12:21.788: v4l2-input: Linesize: 1280 Bytes
+22:12:21.790: v4l2-input: Framerate: 30.00 fps
+22:12:21.791: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:21.794: v4l2-input: /dev/video0: Stopped capture after 0 frames
+22:12:21.797: v4l2-input: Start capture from /dev/video0
+22:12:21.798: v4l2-input: Input: 0
+22:12:21.801: v4l2-input: Resolution: 640x480
+22:12:21.801: v4l2-input: Pixelformat: YUYV
+22:12:21.801: v4l2-input: Linesize: 1280 Bytes
+22:12:21.803: v4l2-input: Framerate: 30.00 fps
+22:12:21.805: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:22.514: v4l2-input: /dev/video0: select timed out
+22:12:22.514: v4l2-input: /dev/video0: failed to log status
+22:12:25.751: v4l2-input: /dev/video0: Stopped capture after 97 frames
+22:12:25.753: v4l2-input: Start capture from /dev/video0
+22:12:25.753: v4l2-input: Input: 0
+22:12:25.755: v4l2-input: Resolution: 640x480
+22:12:25.755: v4l2-input: Pixelformat: BGR3
+22:12:25.755: v4l2-input: Linesize: 1920 Bytes
+22:12:25.757: v4l2-input: Framerate: 30.00 fps
+22:12:25.757: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:25.927: v4l2-input: /dev/video0: select timed out
+22:12:25.927: v4l2-input: /dev/video0: failed to log status
+22:12:26.910: v4l2-input: /dev/video0: Stopped capture after 23 frames
+22:12:26.911: v4l2-input: Start capture from /dev/video0
+22:12:26.912: v4l2-input: Input: 0
+22:12:26.913: v4l2-input: Resolution: 640x480
+22:12:26.913: v4l2-input: Pixelformat: YV12
+22:12:26.913: v4l2-input: Linesize: 640 Bytes
+22:12:26.915: v4l2-input: Framerate: 30.00 fps
+22:12:26.916: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:27.085: v4l2-input: /dev/video0: select timed out
+22:12:27.085: v4l2-input: /dev/video0: failed to log status
+22:12:28.775: v4l2-input: /dev/video0: Stopped capture after 42 frames
+22:12:28.777: v4l2-input: Start capture from /dev/video0
+22:12:28.778: v4l2-input: Input: 0
+22:12:28.781: v4l2-input: Resolution: 640x480
+22:12:28.781: v4l2-input: Pixelformat: YUYV
+22:12:28.781: v4l2-input: Linesize: 1280 Bytes
+22:12:28.783: v4l2-input: Framerate: 30.00 fps
+22:12:28.784: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:28.954: v4l2-input: /dev/video0: select timed out
+22:12:28.954: v4l2-input: /dev/video0: failed to log status
+22:12:32.291: v4l2-input: /dev/video0: Stopped capture after 86 frames
+22:12:32.293: v4l2-input: Start capture from /dev/video0
+22:12:32.293: v4l2-input: Input: 0
+22:12:32.297: v4l2-input: Resolution: 160x120
+22:12:32.297: v4l2-input: Pixelformat: YUYV
+22:12:32.297: v4l2-input: Linesize: 320 Bytes
+22:12:32.298: v4l2-input: Framerate: 30.00 fps
+22:12:32.298: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:32.467: v4l2-input: /dev/video0: select timed out
+22:12:32.468: v4l2-input: /dev/video0: failed to log status
+22:12:35.092: v4l2-input: /dev/video0: Stopped capture after 67 frames
+22:12:35.095: v4l2-input: Start capture from /dev/video0
+22:12:35.095: v4l2-input: Input: 0
+22:12:35.099: v4l2-input: Resolution: 640x480
+22:12:35.099: v4l2-input: Pixelformat: YUYV
+22:12:35.099: v4l2-input: Linesize: 1280 Bytes
+22:12:35.100: v4l2-input: Framerate: 30.00 fps
+22:12:35.102: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:35.272: v4l2-input: /dev/video0: select timed out
+22:12:35.272: v4l2-input: /dev/video0: failed to log status
+22:12:37.373: v4l2-input: /dev/video0: Stopped capture after 53 frames
+22:12:37.375: v4l2-input: Start capture from /dev/video0
+22:12:37.375: v4l2-input: Unable to set input 0
+22:12:37.375: v4l2-input: Initialization failed, errno: Device or resource busy
+22:12:38.747: v4l2-input: Start capture from /dev/video0
+22:12:38.748: v4l2-input: Input: 0
+22:12:38.751: v4l2-input: Resolution: 640x480
+22:12:38.751: v4l2-input: Pixelformat: YUYV
+22:12:38.751: v4l2-input: Linesize: 1280 Bytes
+22:12:38.753: v4l2-input: Framerate: 30.00 fps
+22:12:38.754: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:38.924: v4l2-input: /dev/video0: select timed out
+22:12:38.924: v4l2-input: /dev/video0: failed to log status
+22:12:39.389: v4l2-input: /dev/video0: Stopped capture after 10 frames
+22:12:39.391: v4l2-input: Start capture from /dev/video0
+22:12:39.391: v4l2-input: Input: 0
+22:12:39.395: v4l2-input: Resolution: 640x480
+22:12:39.395: v4l2-input: Pixelformat: YUYV
+22:12:39.395: v4l2-input: Linesize: 1280 Bytes
+22:12:39.396: v4l2-input: Framerate: 30.00 fps
+22:12:39.397: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:39.566: v4l2-input: /dev/video0: select timed out
+22:12:39.566: v4l2-input: /dev/video0: failed to log status
+22:12:40.319: v4l2-input: /dev/video0: Stopped capture after 17 frames
+22:12:40.321: v4l2-input: Start capture from /dev/video0
+22:12:40.322: v4l2-input: Input: 0
+22:12:40.325: v4l2-input: Resolution: 640x480
+22:12:40.325: v4l2-input: Pixelformat: YUYV
+22:12:40.325: v4l2-input: Linesize: 1280 Bytes
+22:12:40.327: v4l2-input: Framerate: 30.00 fps
+22:12:40.329: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:40.498: v4l2-input: /dev/video0: select timed out
+22:12:40.498: v4l2-input: /dev/video0: failed to log status
+22:12:40.647: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:12:40.649: v4l2-input: Start capture from /dev/video0
+22:12:40.651: v4l2-input: Input: 0
+22:12:40.654: v4l2-input: Resolution: 640x480
+22:12:40.654: v4l2-input: Pixelformat: YUYV
+22:12:40.654: v4l2-input: Linesize: 1280 Bytes
+22:12:40.656: v4l2-input: Framerate: 30.00 fps
+22:12:40.656: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:40.826: v4l2-input: /dev/video0: select timed out
+22:12:40.826: v4l2-input: /dev/video0: failed to log status
+22:12:40.831: v4l2-input: /dev/video0: stream reset successful
+22:12:41.091: v4l2-input: /dev/video0: Stopped capture after 5 frames
+22:12:41.093: v4l2-input: Start capture from /dev/video0
+22:12:41.094: v4l2-input: Input: 0
+22:12:41.097: v4l2-input: Resolution: 640x480
+22:12:41.097: v4l2-input: Pixelformat: YUYV
+22:12:41.097: v4l2-input: Linesize: 1280 Bytes
+22:12:41.099: v4l2-input: Framerate: 30.00 fps
+22:12:41.100: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:41.269: v4l2-input: /dev/video0: select timed out
+22:12:41.269: v4l2-input: /dev/video0: failed to log status
+22:12:42.283: v4l2-input: /dev/video0: Stopped capture after 24 frames
+22:12:42.285: v4l2-input: Start capture from /dev/video0
+22:12:42.285: v4l2-input: Input: 0
+22:12:42.288: v4l2-input: Resolution: 640x480
+22:12:42.288: v4l2-input: Pixelformat: YUYV
+22:12:42.288: v4l2-input: Linesize: 1280 Bytes
+22:12:42.290: v4l2-input: Framerate: 30.00 fps
+22:12:42.291: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:42.433: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:12:42.435: v4l2-input: Start capture from /dev/video0
+22:12:42.436: v4l2-input: Input: 0
+22:12:42.439: v4l2-input: Resolution: 640x480
+22:12:42.439: v4l2-input: Pixelformat: YUYV
+22:12:42.439: v4l2-input: Linesize: 1280 Bytes
+22:12:42.440: v4l2-input: Framerate: 30.00 fps
+22:12:42.442: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:42.581: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:12:42.583: v4l2-input: Start capture from /dev/video0
+22:12:42.583: v4l2-input: Input: 0
+22:12:42.587: v4l2-input: Resolution: 640x480
+22:12:42.587: v4l2-input: Pixelformat: YUYV
+22:12:42.587: v4l2-input: Linesize: 1280 Bytes
+22:12:42.588: v4l2-input: Framerate: 30.00 fps
+22:12:42.589: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:42.919: v4l2-input: /dev/video0: Stopped capture after 6 frames
+22:12:42.923: v4l2-input: Start capture from /dev/video0
+22:12:42.924: v4l2-input: Input: 0
+22:12:42.927: v4l2-input: Resolution: 640x480
+22:12:42.927: v4l2-input: Pixelformat: YUYV
+22:12:42.927: v4l2-input: Linesize: 1280 Bytes
+22:12:42.929: v4l2-input: Framerate: 30.00 fps
+22:12:42.929: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:43.099: v4l2-input: /dev/video0: select timed out
+22:12:43.099: v4l2-input: /dev/video0: failed to log status
+22:12:43.099: v4l2-input: /dev/video0: Stopped capture after 0 frames
+22:12:43.101: v4l2-input: Start capture from /dev/video0
+22:12:43.102: v4l2-input: Input: 0
+22:12:43.105: v4l2-input: Resolution: 640x480
+22:12:43.105: v4l2-input: Pixelformat: YUYV
+22:12:43.105: v4l2-input: Linesize: 1280 Bytes
+22:12:43.106: v4l2-input: Framerate: 30.00 fps
+22:12:43.107: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:43.213: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:12:43.215: v4l2-input: Start capture from /dev/video0
+22:12:43.215: v4l2-input: Input: 0
+22:12:43.219: v4l2-input: Resolution: 640x480
+22:12:43.219: v4l2-input: Pixelformat: YUYV
+22:12:43.219: v4l2-input: Linesize: 1280 Bytes
+22:12:43.220: v4l2-input: Framerate: 30.00 fps
+22:12:43.222: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:43.777: v4l2-input: /dev/video0: Stopped capture after 12 frames
+22:12:43.779: v4l2-input: Start capture from /dev/video0
+22:12:43.779: v4l2-input: Input: 0
+22:12:43.785: v4l2-input: Resolution: 640x480
+22:12:43.785: v4l2-input: Pixelformat: YUYV
+22:12:43.785: v4l2-input: Linesize: 1280 Bytes
+22:12:43.788: v4l2-input: Framerate: 30.00 fps
+22:12:43.789: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:44.092: v4l2-input: /dev/video0: select timed out
+22:12:44.092: v4l2-input: /dev/video0: failed to log status
+22:12:45.081: v4l2-input: /dev/video0: Stopped capture after 26 frames
+22:12:45.083: v4l2-input: Start capture from /dev/video0
+22:12:45.084: v4l2-input: Input: 0
+22:12:45.090: v4l2-input: Resolution: 640x480
+22:12:45.090: v4l2-input: Pixelformat: YUYV
+22:12:45.090: v4l2-input: Linesize: 1280 Bytes
+22:12:45.093: v4l2-input: Framerate: 30.00 fps
+22:12:45.094: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:45.996: v4l2-input: /dev/video0: select timed out
+22:12:45.996: v4l2-input: /dev/video0: failed to log status
+22:12:49.685: v4l2-input: /dev/video0: Stopped capture after 114 frames
+22:12:49.687: v4l2-input: Start capture from /dev/video0
+22:12:49.687: v4l2-input: Input: 0
+22:12:49.694: v4l2-input: Resolution: 640x480
+22:12:49.694: v4l2-input: Pixelformat: YUYV
+22:12:49.694: v4l2-input: Linesize: 1280 Bytes
+22:12:49.697: v4l2-input: Framerate: 30.00 fps
+22:12:49.697: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:49.833: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:12:49.835: v4l2-input: Start capture from /dev/video0
+22:12:49.836: v4l2-input: Input: 0
+22:12:49.842: v4l2-input: Resolution: 640x480
+22:12:49.842: v4l2-input: Pixelformat: YUYV
+22:12:49.842: v4l2-input: Linesize: 1280 Bytes
+22:12:49.845: v4l2-input: Framerate: 30.00 fps
+22:12:49.846: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:49.985: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:12:49.987: v4l2-input: Start capture from /dev/video0
+22:12:49.987: v4l2-input: Input: 0
+22:12:49.993: v4l2-input: Resolution: 640x480
+22:12:49.993: v4l2-input: Pixelformat: YUYV
+22:12:49.993: v4l2-input: Linesize: 1280 Bytes
+22:12:49.996: v4l2-input: Framerate: 30.00 fps
+22:12:49.997: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:50.566: v4l2-input: /dev/video0: select timed out
+22:12:50.566: v4l2-input: /dev/video0: failed to log status
+22:12:53.283: v4l2-input: /dev/video0: Stopped capture after 79 frames
+22:12:53.285: v4l2-input: Start capture from /dev/video0
+22:12:53.286: v4l2-input: Input: 0
+22:12:53.289: v4l2-input: Resolution: 640x480
+22:12:53.289: v4l2-input: Pixelformat: YUYV
+22:12:53.289: v4l2-input: Linesize: 1280 Bytes
+22:12:53.291: v4l2-input: Framerate: 30.00 fps
+22:12:53.292: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:53.435: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:12:53.437: v4l2-input: Start capture from /dev/video0
+22:12:53.437: v4l2-input: Input: 0
+22:12:53.441: v4l2-input: Resolution: 640x480
+22:12:53.441: v4l2-input: Pixelformat: YUYV
+22:12:53.441: v4l2-input: Linesize: 1280 Bytes
+22:12:53.442: v4l2-input: Framerate: 30.00 fps
+22:12:53.443: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:53.585: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:12:53.587: v4l2-input: Start capture from /dev/video0
+22:12:53.587: v4l2-input: Input: 0
+22:12:53.591: v4l2-input: Resolution: 640x480
+22:12:53.591: v4l2-input: Pixelformat: YUYV
+22:12:53.591: v4l2-input: Linesize: 1280 Bytes
+22:12:53.592: v4l2-input: Framerate: 30.00 fps
+22:12:53.594: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:54.200: v4l2-input: /dev/video0: select timed out
+22:12:54.200: v4l2-input: /dev/video0: failed to log status
+22:12:54.441: v4l2-input: /dev/video0: Stopped capture after 14 frames
+22:12:54.443: v4l2-input: Start capture from /dev/video0
+22:12:54.444: v4l2-input: Input: 0
+22:12:54.447: v4l2-input: Resolution: 640x480
+22:12:54.447: v4l2-input: Pixelformat: YUYV
+22:12:54.447: v4l2-input: Linesize: 1280 Bytes
+22:12:54.449: v4l2-input: Framerate: 30.00 fps
+22:12:54.450: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:55.132: v4l2-input: /dev/video0: select timed out
+22:12:55.132: v4l2-input: /dev/video0: failed to log status
+22:12:55.217: v4l2-input: /dev/video0: Stopped capture after 12 frames
+22:12:55.220: v4l2-input: Start capture from /dev/video0
+22:12:55.221: v4l2-input: Input: 0
+22:12:55.225: v4l2-input: Resolution: 640x480
+22:12:55.225: v4l2-input: Pixelformat: YUYV
+22:12:55.225: v4l2-input: Linesize: 1280 Bytes
+22:12:55.226: v4l2-input: Framerate: 30.00 fps
+22:12:55.228: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:56.062: v4l2-input: /dev/video0: select timed out
+22:12:56.062: v4l2-input: /dev/video0: failed to log status
+22:12:57.423: v4l2-input: /dev/video0: Stopped capture after 50 frames
+22:12:57.425: v4l2-input: Start capture from /dev/video0
+22:12:57.425: v4l2-input: Input: 0
+22:12:57.428: v4l2-input: Resolution: 640x480
+22:12:57.429: v4l2-input: Pixelformat: YUYV
+22:12:57.429: v4l2-input: Linesize: 1280 Bytes
+22:12:57.430: v4l2-input: Framerate: 30.00 fps
+22:12:57.431: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:57.573: v4l2-input: /dev/video0: Stopped capture after 1 frames
+22:12:57.575: v4l2-input: Start capture from /dev/video0
+22:12:57.576: v4l2-input: Input: 0
+22:12:57.579: v4l2-input: Resolution: 640x480
+22:12:57.579: v4l2-input: Pixelformat: YUYV
+22:12:57.579: v4l2-input: Linesize: 1280 Bytes
+22:12:57.581: v4l2-input: Framerate: 30.00 fps
+22:12:57.581: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:58.304: v4l2-input: /dev/video0: select timed out
+22:12:58.304: v4l2-input: /dev/video0: failed to log status
+22:12:58.304: v4l2-input: /dev/video0: Stopped capture after 12 frames
+22:12:58.307: v4l2-input: Start capture from /dev/video0
+22:12:58.308: v4l2-input: Input: 0
+22:12:58.313: v4l2-input: Resolution: 640x480
+22:12:58.313: v4l2-input: Pixelformat: YUYV
+22:12:58.313: v4l2-input: Linesize: 1280 Bytes
+22:12:58.314: v4l2-input: Framerate: 30.00 fps
+22:12:58.317: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+22:12:58.485: v4l2-input: /dev/video0: select timed out
+22:12:58.485: v4l2-input: /dev/video0: failed to log status

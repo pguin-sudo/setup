@@ -1,0 +1,306 @@
+19:49:47.084: [Safe Mode] Unclean shutdown detected!
+19:49:48.821: [Safe Mode] User elected to launch normally.
+19:49:48.822: Platform: Wayland
+19:49:48.822: CPU Name: AMD Ryzen 7 2700 Eight-Core Processor
+19:49:48.822: CPU Speed: 1550.000MHz
+19:49:48.824: Physical Cores: 8, Logical Cores: 16
+19:49:48.824: Physical Memory: 15914MB Total, 9546MB Free
+19:49:48.824: Kernel Version: Linux 6.13.4-arch1-1
+19:49:48.824: Distribution: "Arch Linux" Unknown
+19:49:48.824: Desktop Environment: Hyprland (Hyprland)
+19:49:48.824: Session Type: wayland
+19:49:48.831: Qt Version: 6.8.2 (runtime), 6.8.1 (compiled)
+19:49:48.831: Portable mode: false
+19:49:48.865: OBS 31.0.1 (linux)
+19:49:48.865: ---------------------------------
+19:49:48.867: ---------------------------------
+19:49:48.868: audio settings reset:
+19:49:48.868: 	samples per sec: 48000
+19:49:48.868: 	speakers:        2
+19:49:48.868: 	max buffering:   960 milliseconds
+19:49:48.868: 	buffering type:  dynamically increasing
+19:49:48.871: ---------------------------------
+19:49:48.871: Initializing OpenGL...
+19:49:48.871: Using EGL/Wayland
+19:49:48.915: Initialized EGL 1.5
+19:49:48.941: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 1070 Ti/PCIe/SSE2
+19:49:48.941: OpenGL loaded successfully, version 3.3.0 NVIDIA 570.86.16, shading language 3.30 NVIDIA via Cg compiler
+19:49:48.971: ---------------------------------
+19:49:48.971: video settings reset:
+19:49:48.971: 	base resolution:   1920x1080
+19:49:48.971: 	output resolution: 1280x720
+19:49:48.971: 	downscale filter:  Bicubic
+19:49:48.971: 	fps:               30/1
+19:49:48.971: 	format:            NV12
+19:49:48.971: 	YUV mode:          Rec. 709/Partial
+19:49:48.971: NV12 texture support enabled
+19:49:48.971: P010 texture support not available
+19:49:48.982: Audio monitoring device:
+19:49:48.982: 	name: Default
+19:49:48.982: 	id: default
+19:49:48.984: ---------------------------------
+19:49:48.994: Failed to load 'en-US' text for module: 'decklink-captions.so'
+19:49:49.011: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+19:49:49.020: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+19:49:49.020: Failed to initialize module 'decklink.so'
+19:49:49.228: [pipewire] Available capture sources:
+19:49:49.228: [pipewire]     - Monitor source
+19:49:49.228: [pipewire]     - Window source
+19:49:49.344: LIBVA_DRIVER_NAME variable is set, this could prevent FFmpeg VAAPI from working correctly
+19:49:49.344: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+19:49:49.344: FFmpeg VAAPI H264 encoding not supported
+19:49:49.344: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+19:49:49.344: FFmpeg VAAPI AV1 encoding not supported
+19:49:49.344: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+19:49:49.344: FFmpeg VAAPI HEVC encoding not supported
+19:49:49.824: [obs-nvenc] NVENC version: 12.2 (compiled) / 13.0 (driver), CUDA driver version: 12.80, AV1 supported: false
+19:49:49.958: os_dlopen(/usr/lib/obs-plugins/obs-websocket.so->/usr/lib/obs-plugins/obs-websocket.so): libqrcodegencpp.so.1: cannot open shared object file: No such file or directory
+19:49:49.958: 
+19:49:49.963: os_dlopen(/usr/lib/obs-plugins/obs-websocket.so->/usr/lib/obs-plugins/obs-websocket.so): libqrcodegencpp.so.1: cannot open shared object file: No such file or directory
+19:49:49.963: 
+19:49:49.963: Module '/usr/lib/obs-plugins/obs-websocket.so' not loaded
+19:49:50.004: ---------------------------------
+19:49:50.004:   Loaded Modules:
+19:49:50.004:     text-freetype2.so
+19:49:50.004:     rtmp-services.so
+19:49:50.004:     obs-x264.so
+19:49:50.004:     obs-webrtc.so
+19:49:50.004:     obs-vst.so
+19:49:50.004:     obs-transitions.so
+19:49:50.004:     obs-qsv11.so
+19:49:50.004:     obs-outputs.so
+19:49:50.004:     obs-nvenc.so
+19:49:50.004:     obs-libfdk.so
+19:49:50.004:     obs-filters.so
+19:49:50.004:     obs-ffmpeg.so
+19:49:50.004:     linux-v4l2.so
+19:49:50.004:     linux-pulseaudio.so
+19:49:50.004:     linux-pipewire.so
+19:49:50.004:     linux-jack.so
+19:49:50.004:     linux-capture.so
+19:49:50.004:     linux-alsa.so
+19:49:50.004:     image-source.so
+19:49:50.004:     frontend-tools.so
+19:49:50.004:     decklink-output-ui.so
+19:49:50.004:     decklink-captions.so
+19:49:50.004: ---------------------------------
+19:49:50.004: ---------------------------------
+19:49:50.004: Available Encoders:
+19:49:50.004:   Video Encoders:
+19:49:50.004: 	- ffmpeg_svt_av1 (SVT-AV1)
+19:49:50.004: 	- ffmpeg_aom_av1 (AOM AV1)
+19:49:50.004: 	- obs_nvenc_h264_tex (NVIDIA NVENC H.264)
+19:49:50.004: 	- obs_nvenc_hevc_tex (NVIDIA NVENC HEVC)
+19:49:50.004: 	- obs_x264 (x264)
+19:49:50.004:   Audio Encoders:
+19:49:50.004: 	- ffmpeg_aac (FFmpeg AAC)
+19:49:50.004: 	- ffmpeg_opus (FFmpeg Opus)
+19:49:50.004: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+19:49:50.004: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+19:49:50.004: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+19:49:50.004: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+19:49:50.004: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+19:49:50.004: 	- libfdk_aac (libfdk AAC)
+19:49:50.004: ==== Startup complete ===============================================
+19:49:50.043: All scene data cleared
+19:49:50.043: ------------------------------------------------
+19:49:50.051: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.7) 15.0.0'
+19:49:50.051: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+19:49:50.051: pulse-input: Started recording from 'alsa_output.usb-Burr-Brown_from_TI_USB_Audio_CODEC-00.analog-stereo-output.monitor' (default)
+19:49:50.051: [Loaded global audio device]: 'Desktop Audio'
+19:49:50.052: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.7) 15.0.0'
+19:49:50.053: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+19:49:50.053: pulse-input: Started recording from 'alsa_input.usb-Burr-Brown_from_TI_USB_Audio_CODEC-00.analog-stereo-input' (default)
+19:49:50.053: [Loaded global audio device]: 'Mic/Aux'
+19:49:50.053: v4l2-input: Start capture from /dev/video0
+19:49:50.054: v4l2-input: Input: 0
+19:49:50.058: v4l2-input: Resolution: 640x480
+19:49:50.058: v4l2-input: Pixelformat: YUYV
+19:49:50.058: v4l2-input: Linesize: 1280 Bytes
+19:49:50.059: v4l2-input: Framerate: 30.00 fps
+19:49:50.060: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+19:49:50.060: PipeWire initialized
+19:49:50.070: Switched to scene 'Main'
+19:49:50.070: ------------------------------------------------
+19:49:50.070: Loaded scenes:
+19:49:50.070: - scene 'Main':
+19:49:50.070:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+19:49:50.070:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+19:49:50.070: - scene 'Main 2':
+19:49:50.071:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+19:49:50.071:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+19:49:50.071:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+19:49:50.071: - scene 'Reversed':
+19:49:50.071:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+19:49:50.071:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+19:49:50.071:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+19:49:50.071: - scene 'Screen':
+19:49:50.071:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+19:49:50.071: - scene 'Camera':
+19:49:50.071:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+19:49:50.071:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+19:49:50.071: - scene 'Camera Jmih':
+19:49:50.071:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+19:49:50.071:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+19:49:50.071:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+19:49:50.071: ------------------------------------------------
+19:49:50.111: [pipewire] Screencast session created
+19:49:50.230: v4l2-input: /dev/video0: select timed out
+19:49:50.230: v4l2-input: /dev/video0: failed to log status
+19:49:50.639: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+19:49:50.639: 
+19:49:51.200: [pipewire] Asking for monitor and window
+19:49:51.205: [pipewire] source selected, setting up screencast
+19:49:51.215: [pipewire] Server version: 1.2.7
+19:49:51.215: [pipewire] Library version: 1.2.7
+19:49:51.215: [pipewire] Header version: 1.2.7
+19:49:51.216: [pipewire] Created stream 0x639b800775a0
+19:49:51.216: [pipewire] Stream 0x639b800775a0 state: "connecting" (error: none)
+19:49:51.216: [pipewire] Playing stream 0x639b800775a0
+19:49:51.216: [pipewire] Stream 0x639b800775a0 state: "paused" (error: none)
+19:49:51.239: [pipewire] Negotiated format:
+19:49:51.239: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+19:49:51.239: [pipewire]     Modifier: 0x0
+19:49:51.239: [pipewire]     Size: 1920x1080
+19:49:51.239: [pipewire]     Framerate: 0/1
+19:49:51.240: [pipewire] Negotiated format:
+19:49:51.240: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+19:49:51.240: [pipewire]     Modifier: 0x300000000cdb014
+19:49:51.240: [pipewire]     Size: 1920x1080
+19:49:51.240: [pipewire]     Framerate: 0/1
+19:49:51.243: [pipewire] Stream 0x639b800775a0 state: "streaming" (error: none)
+19:51:01.339: User switched to scene 'Main 2'
+19:51:24.029: Creating a popup with a parent, QWidgetWindow(0x639b7dc2e9d0, name="OBSBasicWindow") which does not match the current topmost grabbing popup, QWidgetWindow(0x639b7e250f10, name="QMenuClassWindow") With some shell surface protocols, this is not allowed. The wayland QPA plugin is currently handling it by setting the parent to the topmost grabbing popup. Note, however, that this may cause positioning errors and popups closing unxpectedly. Please fix the transient parent of the popup.
+19:51:25.003: Creating a popup with a parent, QWidgetWindow(0x639b7dc2e9d0, name="OBSBasicWindow") which does not match the current topmost grabbing popup, QWidgetWindow(0x639b7e250f10, name="QMenuClassWindow") With some shell surface protocols, this is not allowed. The wayland QPA plugin is currently handling it by setting the parent to the topmost grabbing popup. Note, however, that this may cause positioning errors and popups closing unxpectedly. Please fix the transient parent of the popup.
+19:51:25.253: Creating a popup with a parent, QWidgetWindow(0x639b7dc2e9d0, name="OBSBasicWindow") which does not match the current topmost grabbing popup, QWidgetWindow(0x639b7e250f10, name="QMenuClassWindow") With some shell surface protocols, this is not allowed. The wayland QPA plugin is currently handling it by setting the parent to the topmost grabbing popup. Note, however, that this may cause positioning errors and popups closing unxpectedly. Please fix the transient parent of the popup.
+19:51:39.836: User switched to scene 'Main'
+19:51:41.590: User switched to scene 'Main 2'
+19:51:42.260: User switched to scene 'Main'
+19:51:42.843: User switched to scene 'Main 2'
+19:51:43.469: User switched to scene 'Main'
+19:51:50.224: Virtual camera started
+19:51:50.227: ==== Virtual Camera Start ==========================================
+19:51:50.227: Starting Virtual Camera output to Program
+20:04:02.378: User switched to scene 'Reversed'
+20:04:04.594: User switched to scene 'Camera'
+20:04:05.138: [pipewire] Stream 0x639b800775a0 state: "paused" (error: none)
+20:04:05.292: User switched to scene 'Camera Jmih'
+20:04:20.708: User switched to scene 'Camera'
+20:05:40.149: User switched to scene 'Main 2'
+20:05:40.174: [pipewire] Stream 0x639b800775a0 state: "streaming" (error: none)
+20:05:40.501: User switched to scene 'Main'
+20:05:42.735: User switched to scene 'Main 2'
+20:07:22.789: User switched to scene 'Camera Jmih'
+20:07:23.339: [pipewire] Stream 0x639b800775a0 state: "paused" (error: none)
+20:08:47.498: User switched to scene 'Camera'
+20:08:47.969: User switched to scene 'Screen'
+20:08:47.974: [pipewire] Stream 0x639b800775a0 state: "streaming" (error: none)
+20:08:48.383: User switched to scene 'Reversed'
+20:08:48.809: User switched to scene 'Main'
+20:08:49.184: User switched to scene 'Main 2'
+20:08:54.994: User switched to scene 'Camera Jmih'
+20:08:55.539: [pipewire] Stream 0x639b800775a0 state: "paused" (error: none)
+20:09:03.370: User added scene 'Camera dual'
+20:09:03.372: User switched to scene 'Camera dual'
+20:09:04.657: User switched to scene 'Camera Jmih'
+20:09:06.851: User switched to scene 'Camera dual'
+20:09:07.268: User added source 'Video Capture Device (V4L2)' (v4l2_input) to scene 'Camera dual'
+20:09:07.274: User added source 'Video Capture Device (V4L2)' (v4l2_input) to scene 'Camera dual'
+20:09:11.204: Creating a popup with a parent, QWidgetWindow(0x639b7dc2e9d0, name="OBSBasicWindow") which does not match the current topmost grabbing popup, QWidgetWindow(0x639b800ffba0, name="QMenuClassWindow") With some shell surface protocols, this is not allowed. The wayland QPA plugin is currently handling it by setting the parent to the topmost grabbing popup. Note, however, that this may cause positioning errors and popups closing unxpectedly. Please fix the transient parent of the popup.
+20:11:26.457: User switched to scene 'Main'
+20:11:26.474: [pipewire] Stream 0x639b800775a0 state: "streaming" (error: none)
+20:11:27.071: User switched to scene 'Main 2'
+20:41:23.887: User switched to scene 'Reversed'
+20:41:25.201: User switched to scene 'Main'
+20:41:25.955: User switched to scene 'Main 2'
+20:41:26.293: User switched to scene 'Screen'
+20:41:27.017: User switched to scene 'Camera'
+20:41:27.572: [pipewire] Stream 0x639b800775a0 state: "paused" (error: none)
+20:41:28.090: User switched to scene 'Camera Jmih'
+20:41:28.353: User switched to scene 'Camera dual'
+20:51:39.297: User switched to scene 'Main'
+20:51:39.308: [pipewire] Stream 0x639b800775a0 state: "streaming" (error: none)
+20:51:43.934: ==== Shutting down ==================================================
+20:51:43.936: Output 'virtualcam_output': stopping
+20:51:43.936: Output 'virtualcam_output': Total frames output: 107810
+20:51:43.936: Output 'virtualcam_output': Total drawn frames: 107805 (107811 attempted)
+20:51:43.936: Output 'virtualcam_output': Number of lagged frames due to rendering lag/stalls: 6 (0.0%)
+20:51:43.936: ==== Virtual Camera Stop ===========================================
+20:51:43.937: Virtual camera stopped
+20:51:43.975: [pipewire] Stream 0x639b800775a0 state: "paused" (error: none)
+20:51:43.978: pulse-input: Stopped recording from 'alsa_output.usb-Burr-Brown_from_TI_USB_Audio_CODEC-00.analog-stereo-output.monitor'
+20:51:43.979: pulse-input: Got 148555 packets with 178266000 frames
+20:51:43.979: pulse-input: Stopped recording from 'alsa_input.usb-Burr-Brown_from_TI_USB_Audio_CODEC-00.analog-stereo-input'
+20:51:43.979: pulse-input: Got 148553 packets with 178263600 frames
+20:51:43.979: [pipewire] Stream 0x639b800775a0 state: "unconnected" (error: none)
+20:51:43.991: v4l2-input: /dev/video0: Stopped capture after 99048 frames
+20:51:44.027: All scene data cleared
+20:51:44.027: ------------------------------------------------
+20:51:44.152: [Scripting] Total detached callbacks: 0
+20:51:44.152: Freeing OBS context data
+20:51:44.175: == Profiler Results =============================
+20:51:44.175: run_program_init: 3186.48 ms
+20:51:44.175:  ┣OBSApp::AppInit: 14.55 ms
+20:51:44.175:  ┃ ┗OBSApp::InitLocale: 2.069 ms
+20:51:44.175:  ┗OBSApp::OBSInit: 1280.32 ms
+20:51:44.175:    ┣obs_startup: 9.57 ms
+20:51:44.175:    ┗OBSBasic::OBSInit: 1236.35 ms
+20:51:44.175:      ┣OBSBasic::InitBasicConfig: 1.915 ms
+20:51:44.175:      ┣OBSBasic::ResetAudio: 0.182 ms
+20:51:44.175:      ┣OBSBasic::ResetVideo: 114.797 ms
+20:51:44.175:      ┃ ┗obs_init_graphics: 103.195 ms
+20:51:44.175:      ┃   ┗shader compilation: 29.183 ms
+20:51:44.175:      ┣OBSBasic::InitOBSCallbacks: 0.005 ms
+20:51:44.175:      ┣OBSBasic::InitHotkeys: 0.029 ms
+20:51:44.175:      ┣obs_load_all_modules2: 1019.57 ms
+20:51:44.175:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+20:51:44.175:      ┃ ┣obs_init_module(decklink-output-ui.so): 0 ms
+20:51:44.175:      ┃ ┣obs_init_module(decklink.so): 0.124 ms
+20:51:44.175:      ┃ ┣obs_init_module(frontend-tools.so): 82.836 ms
+20:51:44.175:      ┃ ┣obs_init_module(image-source.so): 0.012 ms
+20:51:44.175:      ┃ ┣obs_init_module(linux-alsa.so): 0.003 ms
+20:51:44.175:      ┃ ┣obs_init_module(linux-capture.so): 0 ms
+20:51:44.175:      ┃ ┣obs_init_module(linux-jack.so): 0.005 ms
+20:51:44.175:      ┃ ┣obs_init_module(linux-pipewire.so): 5.733 ms
+20:51:44.175:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.008 ms
+20:51:44.175:      ┃ ┣obs_init_module(linux-v4l2.so): 7.972 ms
+20:51:44.175:      ┃ ┣obs_init_module(obs-ffmpeg.so): 0.94 ms
+20:51:44.175:      ┃ ┣obs_init_module(obs-filters.so): 0.054 ms
+20:51:44.175:      ┃ ┣obs_init_module(obs-libfdk.so): 0.002 ms
+20:51:44.175:      ┃ ┣obs_init_module(obs-nvenc.so): 429.757 ms
+20:51:44.175:      ┃ ┃ ┗nvenc_check: 429.739 ms
+20:51:44.175:      ┃ ┣obs_init_module(obs-outputs.so): 0.006 ms
+20:51:44.175:      ┃ ┣obs_init_module(obs-qsv11.so): 1.511 ms
+20:51:44.175:      ┃ ┣obs_init_module(obs-transitions.so): 0.01 ms
+20:51:44.175:      ┃ ┣obs_init_module(obs-vst.so): 0.006 ms
+20:51:44.175:      ┃ ┣obs_init_module(obs-webrtc.so): 0.004 ms
+20:51:44.175:      ┃ ┣obs_init_module(obs-x264.so): 0.002 ms
+20:51:44.175:      ┃ ┣obs_init_module(rtmp-services.so): 0.341 ms
+20:51:44.175:      ┃ ┗obs_init_module(text-freetype2.so): 0.018 ms
+20:51:44.176:      ┣OBSBasic::InitService: 2.016 ms
+20:51:44.176:      ┣OBSBasic::ResetOutputs: 0.185 ms
+20:51:44.176:      ┣OBSBasic::CreateHotkeys: 0.031 ms
+20:51:44.176:      ┣OBSBasic::InitPrimitives: 0.145 ms
+20:51:44.176:      ┗OBSBasic::Load: 65.617 ms
+20:51:44.176: obs_hotkey_thread(25 ms): min=0 ms, median=0.001 ms, max=0.139 ms, 99th percentile=0.002 ms, 100% below 25 ms
+20:51:44.176: audio_thread(Audio): min=0.012 ms, median=0.126 ms, max=18.557 ms, 99th percentile=1.605 ms
+20:51:44.176: obs_graphics_thread(33.3333 ms): min=0.296 ms, median=3.037 ms, max=70.533 ms, 99th percentile=10.34 ms, 99.9785% below 33.333 ms
+20:51:44.176:  ┣tick_sources: min=0 ms, median=0.019 ms, max=36.985 ms, 99th percentile=0.088 ms
+20:51:44.176:  ┣output_frame: min=0.104 ms, median=1.312 ms, max=20.421 ms, 99th percentile=3.329 ms
+20:51:44.176:  ┃ ┣gs_context(video->graphics): min=0.104 ms, median=0.993 ms, max=16.472 ms, 99th percentile=2.788 ms
+20:51:44.176:  ┃ ┃ ┣render_video: min=0.061 ms, median=0.87 ms, max=16.377 ms, 99th percentile=2.224 ms
+20:51:44.176:  ┃ ┃ ┃ ┣render_main_texture: min=0.049 ms, median=0.622 ms, max=16.06 ms, 99th percentile=1.716 ms
+20:51:44.176:  ┃ ┃ ┃ ┣render_output_texture: min=0.028 ms, median=0.075 ms, max=4.596 ms, 99th percentile=0.166 ms
+20:51:44.176:  ┃ ┃ ┃ ┣render_convert_texture: min=0.041 ms, median=0.107 ms, max=5.481 ms, 99th percentile=0.231 ms
+20:51:44.176:  ┃ ┃ ┃ ┗stage_output_texture: min=0.019 ms, median=0.048 ms, max=8.38 ms, 99th percentile=0.189 ms
+20:51:44.176:  ┃ ┃ ┣gs_flush: min=0.003 ms, median=0.008 ms, max=11.248 ms, 99th percentile=0.064 ms
+20:51:44.176:  ┃ ┃ ┗download_frame: min=0 ms, median=0.005 ms, max=0.205 ms, 99th percentile=0.013 ms
+20:51:44.176:  ┃ ┗output_video_data: min=0.15 ms, median=0.305 ms, max=9.113 ms, 99th percentile=0.87 ms
+20:51:44.176:  ┗render_displays: min=0.027 ms, median=1.254 ms, max=68.586 ms, 99th percentile=8.237 ms
+20:51:44.176: video_thread(video): min=1.029 ms, median=2.357 ms, max=29.094 ms, 99th percentile=4.622 ms
+20:51:44.176: =================================================
+20:51:44.176: == Profiler Time Between Calls ==================
+20:51:44.176: obs_hotkey_thread(25 ms): min=25.012 ms, median=25.079 ms, max=30.429 ms, 99.8042% within ±2% of 25 ms (0% lower, 0.195798% higher)
+20:51:44.176: obs_graphics_thread(33.3333 ms): min=15.932 ms, median=33.333 ms, max=70.604 ms, 99.8259% within ±2% of 33.333 ms (0.0861396% lower, 0.0879342% higher)
+20:51:44.176: =================================================
+20:51:44.230: Number of memory leaks: 0

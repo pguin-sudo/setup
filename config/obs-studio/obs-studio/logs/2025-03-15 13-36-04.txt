@@ -1,0 +1,564 @@
+13:36:04.385: [Safe Mode] Unclean shutdown detected!
+13:36:07.503: [Safe Mode] User elected to launch normally.
+13:36:07.504: Platform: Wayland
+13:36:07.504: CPU Name: AMD Ryzen 7 2700 Eight-Core Processor
+13:36:07.504: CPU Speed: 3790.102MHz
+13:36:07.506: Physical Cores: 8, Logical Cores: 16
+13:36:07.506: Physical Memory: 15914MB Total, 11812MB Free
+13:36:07.506: Kernel Version: Linux 6.13.4-arch1-1
+13:36:07.506: Distribution: "Arch Linux" Unknown
+13:36:07.506: Desktop Environment: Hyprland (Hyprland)
+13:36:07.506: Session Type: wayland
+13:36:07.508: Qt Version: 6.8.2 (runtime), 6.8.1 (compiled)
+13:36:07.508: Portable mode: false
+13:36:07.558: OBS 31.0.1 (linux)
+13:36:07.558: ---------------------------------
+13:36:07.560: ---------------------------------
+13:36:07.560: audio settings reset:
+13:36:07.560: 	samples per sec: 48000
+13:36:07.560: 	speakers:        2
+13:36:07.560: 	max buffering:   960 milliseconds
+13:36:07.560: 	buffering type:  dynamically increasing
+13:36:07.562: ---------------------------------
+13:36:07.562: Initializing OpenGL...
+13:36:07.562: Using EGL/Wayland
+13:36:07.607: Initialized EGL 1.5
+13:36:07.632: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 1070 Ti/PCIe/SSE2
+13:36:07.632: OpenGL loaded successfully, version 3.3.0 NVIDIA 570.86.16, shading language 3.30 NVIDIA via Cg compiler
+13:36:07.663: ---------------------------------
+13:36:07.664: video settings reset:
+13:36:07.664: 	base resolution:   1920x1080
+13:36:07.664: 	output resolution: 1280x720
+13:36:07.664: 	downscale filter:  Bicubic
+13:36:07.664: 	fps:               30/1
+13:36:07.664: 	format:            NV12
+13:36:07.664: 	YUV mode:          Rec. 709/Partial
+13:36:07.664: NV12 texture support enabled
+13:36:07.664: P010 texture support not available
+13:36:07.675: Audio monitoring device:
+13:36:07.675: 	name: Default
+13:36:07.675: 	id: default
+13:36:07.677: ---------------------------------
+13:36:07.687: Failed to load 'en-US' text for module: 'decklink-captions.so'
+13:36:07.704: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+13:36:07.715: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+13:36:07.716: Failed to initialize module 'decklink.so'
+13:36:07.896: [pipewire] Available capture sources:
+13:36:07.896: [pipewire]     - Monitor source
+13:36:07.896: [pipewire]     - Window source
+13:36:08.002: LIBVA_DRIVER_NAME variable is set, this could prevent FFmpeg VAAPI from working correctly
+13:36:08.003: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+13:36:08.003: FFmpeg VAAPI H264 encoding not supported
+13:36:08.003: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+13:36:08.003: FFmpeg VAAPI AV1 encoding not supported
+13:36:08.003: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+13:36:08.003: FFmpeg VAAPI HEVC encoding not supported
+13:36:08.539: [obs-nvenc] NVENC version: 12.2 (compiled) / 13.0 (driver), CUDA driver version: 12.80, AV1 supported: false
+13:36:08.657: os_dlopen(/usr/lib/obs-plugins/obs-websocket.so->/usr/lib/obs-plugins/obs-websocket.so): libqrcodegencpp.so.1: cannot open shared object file: No such file or directory
+13:36:08.657: 
+13:36:08.662: os_dlopen(/usr/lib/obs-plugins/obs-websocket.so->/usr/lib/obs-plugins/obs-websocket.so): libqrcodegencpp.so.1: cannot open shared object file: No such file or directory
+13:36:08.662: 
+13:36:08.662: Module '/usr/lib/obs-plugins/obs-websocket.so' not loaded
+13:36:08.702: ---------------------------------
+13:36:08.702:   Loaded Modules:
+13:36:08.702:     text-freetype2.so
+13:36:08.702:     rtmp-services.so
+13:36:08.702:     obs-x264.so
+13:36:08.702:     obs-webrtc.so
+13:36:08.702:     obs-vst.so
+13:36:08.702:     obs-transitions.so
+13:36:08.702:     obs-qsv11.so
+13:36:08.702:     obs-outputs.so
+13:36:08.702:     obs-nvenc.so
+13:36:08.702:     obs-libfdk.so
+13:36:08.702:     obs-filters.so
+13:36:08.702:     obs-ffmpeg.so
+13:36:08.702:     linux-v4l2.so
+13:36:08.702:     linux-pulseaudio.so
+13:36:08.702:     linux-pipewire.so
+13:36:08.702:     linux-jack.so
+13:36:08.702:     linux-capture.so
+13:36:08.702:     linux-alsa.so
+13:36:08.702:     image-source.so
+13:36:08.702:     frontend-tools.so
+13:36:08.702:     decklink-output-ui.so
+13:36:08.702:     decklink-captions.so
+13:36:08.702: ---------------------------------
+13:36:08.702: ---------------------------------
+13:36:08.702: Available Encoders:
+13:36:08.702:   Video Encoders:
+13:36:08.702: 	- ffmpeg_svt_av1 (SVT-AV1)
+13:36:08.702: 	- ffmpeg_aom_av1 (AOM AV1)
+13:36:08.702: 	- obs_nvenc_h264_tex (NVIDIA NVENC H.264)
+13:36:08.702: 	- obs_nvenc_hevc_tex (NVIDIA NVENC HEVC)
+13:36:08.702: 	- obs_x264 (x264)
+13:36:08.702:   Audio Encoders:
+13:36:08.702: 	- ffmpeg_aac (FFmpeg AAC)
+13:36:08.702: 	- ffmpeg_opus (FFmpeg Opus)
+13:36:08.702: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+13:36:08.702: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+13:36:08.702: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+13:36:08.702: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+13:36:08.702: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+13:36:08.702: 	- libfdk_aac (libfdk AAC)
+13:36:08.702: ==== Startup complete ===============================================
+13:36:08.736: All scene data cleared
+13:36:08.736: ------------------------------------------------
+13:36:08.744: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.7) 15.0.0'
+13:36:08.744: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+13:36:08.744: pulse-input: Started recording from 'alsa_output.usb-Burr-Brown_from_TI_USB_Audio_CODEC-00.analog-stereo-output.monitor' (default)
+13:36:08.744: [Loaded global audio device]: 'Desktop Audio'
+13:36:08.745: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.7) 15.0.0'
+13:36:08.746: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+13:36:08.746: pulse-input: Started recording from 'alsa_input.usb-Burr-Brown_from_TI_USB_Audio_CODEC-00.analog-stereo-input' (default)
+13:36:08.746: [Loaded global audio device]: 'Mic/Aux'
+13:36:08.746: v4l2-input: Start capture from /dev/video0
+13:36:08.840: v4l2-input: Input: 0
+13:36:08.843: v4l2-input: Resolution: 640x480
+13:36:08.843: v4l2-input: Pixelformat: YUYV
+13:36:08.843: v4l2-input: Linesize: 1280 Bytes
+13:36:08.845: v4l2-input: Framerate: 30.00 fps
+13:36:08.846: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+13:36:08.846: PipeWire initialized
+13:36:08.888: Switched to scene 'Screen'
+13:36:08.888: ------------------------------------------------
+13:36:08.888: Loaded scenes:
+13:36:08.888: - scene 'Main':
+13:36:08.888:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+13:36:08.888:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+13:36:08.888: - scene 'Main 2':
+13:36:08.888:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+13:36:08.888:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+13:36:08.888:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+13:36:08.888: - scene 'Reversed':
+13:36:08.888:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+13:36:08.888:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+13:36:08.888:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+13:36:08.888: - scene 'Screen':
+13:36:08.888:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+13:36:08.888: - scene 'Camera':
+13:36:08.888:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+13:36:08.888:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+13:36:08.888: - scene 'Camera Jmih':
+13:36:08.888:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+13:36:08.888:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+13:36:08.888:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+13:36:08.888: - scene 'Camera dual':
+13:36:08.888:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+13:36:08.888:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+13:36:08.888: - scene 'Discord':
+13:36:08.888:     - source: 'bg.png' (image_source)
+13:36:08.888: ------------------------------------------------
+13:36:08.927: [pipewire] Screencast session created
+13:36:09.015: v4l2-input: /dev/video0: select timed out
+13:36:09.015: v4l2-input: /dev/video0: failed to log status
+13:36:09.309: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+13:36:09.309: 
+13:36:09.395: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+13:36:09.395: 
+13:36:12.056: [pipewire] Asking for monitor and window
+13:36:12.063: [pipewire] source selected, setting up screencast
+13:36:12.076: [pipewire] Server version: 1.2.7
+13:36:12.076: [pipewire] Library version: 1.2.7
+13:36:12.076: [pipewire] Header version: 1.2.7
+13:36:12.077: [pipewire] Created stream 0x60a13667f0b0
+13:36:12.077: [pipewire] Stream 0x60a13667f0b0 state: "connecting" (error: none)
+13:36:12.077: [pipewire] Playing stream 0x60a13667f0b0
+13:36:12.077: [pipewire] Stream 0x60a13667f0b0 state: "paused" (error: none)
+13:36:12.100: [pipewire] Negotiated format:
+13:36:12.100: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+13:36:12.100: [pipewire]     Modifier: 0x0
+13:36:12.100: [pipewire]     Size: 1920x1080
+13:36:12.100: [pipewire]     Framerate: 0/1
+13:36:12.101: [pipewire] Negotiated format:
+13:36:12.101: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+13:36:12.101: [pipewire]     Modifier: 0x300000000cdb014
+13:36:12.101: [pipewire]     Size: 1920x1080
+13:36:12.101: [pipewire]     Framerate: 0/1
+13:36:12.102: [pipewire] Stream 0x60a13667f0b0 state: "streaming" (error: none)
+13:36:18.360: User switched to scene 'Reversed'
+13:36:36.754: User switched to scene 'Camera dual'
+13:36:37.298: [pipewire] Stream 0x60a13667f0b0 state: "paused" (error: none)
+13:36:41.434: User switched to scene 'Camera Jmih'
+13:36:42.378: User switched to scene 'Discord'
+13:36:43.227: User switched to scene 'Camera dual'
+13:36:51.803: User switched to scene 'Camera'
+13:36:52.755: User switched to scene 'Screen'
+13:36:52.766: [pipewire] Stream 0x60a13667f0b0 state: "streaming" (error: none)
+13:36:54.252: User switched to scene 'Reversed'
+13:36:54.562: User switched to scene 'Camera dual'
+13:36:55.098: [pipewire] Stream 0x60a13667f0b0 state: "paused" (error: none)
+13:36:55.355: User switched to scene 'Camera'
+13:36:55.915: User switched to scene 'Camera Jmih'
+13:36:56.235: User switched to scene 'Camera dual'
+13:36:57.772: User switched to scene 'Discord'
+13:36:58.764: User switched to scene 'Camera dual'
+13:36:59.236: User switched to scene 'Camera Jmih'
+13:36:59.907: User switched to scene 'Camera'
+13:37:00.243: User switched to scene 'Camera Jmih'
+13:37:00.523: User switched to scene 'Camera'
+13:37:00.924: User switched to scene 'Camera Jmih'
+13:37:01.323: User switched to scene 'Camera dual'
+13:37:01.828: User switched to scene 'Camera Jmih'
+13:37:02.412: User switched to scene 'Camera dual'
+13:37:02.805: User switched to scene 'Camera Jmih'
+13:37:03.305: User switched to scene 'Camera dual'
+13:37:04.741: User switched to scene 'Camera Jmih'
+13:37:05.372: User switched to scene 'Discord'
+13:37:06.026: User switched to scene 'Camera Jmih'
+13:37:06.507: User switched to scene 'Camera dual'
+13:37:07.068: User switched to scene 'Camera Jmih'
+13:37:08.187: User switched to scene 'Camera dual'
+13:37:09.004: User switched to scene 'Camera Jmih'
+13:37:12.692: User switched to scene 'Camera dual'
+13:37:17.037: User switched to scene 'Camera Jmih'
+14:22:30.078: User switched to scene 'Discord'
+14:22:30.170: QVariant::save: unable to save type 'OBSSafeRef<obs_scene*,obs_scene_get_ref,obs_scene_release>' (type id: 65570).
+14:22:30.170: 
+14:22:31.762: QVariant::save: unable to save type 'OBSSafeRef<obs_scene*,obs_scene_get_ref,obs_scene_release>' (type id: 65570).
+14:22:31.762: 
+14:22:34.139: User switched to scene 'Camera dual'
+14:23:20.367: User Removed source 'Video Capture Device (V4L2)' (v4l2_input) from scene 'Camera dual'
+14:23:23.942: User Removed source 'Video Capture Device (V4L2)' (v4l2_input) from scene 'Camera dual'
+14:23:25.057: User switched to scene 'Camera Jmih'
+14:23:31.295: User Removed source 'Video Capture Device (V4L2)' (v4l2_input) from scene 'Camera Jmih'
+14:23:33.343: User Removed source 'Video Capture Device (V4L2)' (v4l2_input) from scene 'Camera Jmih'
+14:23:35.462: User Removed source 'Video Capture Device (V4L2)' (v4l2_input) from scene 'Camera Jmih'
+14:23:45.969: Source 'Camera Jmih' renamed to 'Camera triple'
+14:23:46.936: User switched to scene 'Reversed'
+14:23:46.967: [pipewire] Stream 0x60a13667f0b0 state: "streaming" (error: none)
+14:23:47.593: User switched to scene 'Main 2'
+14:23:48.192: User switched to scene 'Reversed'
+14:24:00.556: v4l2-input: /dev/video1 seems to not support video capture
+14:24:00.557: v4l2-input: Found device 'Vimicro USB2.0 UVC PC Camera: V' at /dev/video0
+14:24:00.559: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+14:24:00.559: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+14:24:00.559: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+14:24:00.559: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+14:24:00.559: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+14:24:00.561: v4l2-input: Found input 'Camera 1' (Index 0)
+14:24:00.561: v4l2-controls: setting default for Power Line Frequency to 1
+14:24:00.561: v4l2-controls: setting default for Auto Exposure to 3
+14:24:00.562: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+14:24:00.562: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+14:24:00.562: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+14:24:00.562: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+14:24:00.562: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+14:24:02.399: v4l2-input: /dev/video0: Stopped capture after 76635 frames
+14:24:02.401: v4l2-input: Start capture from /dev/video0
+14:24:02.402: v4l2-input: Input: 0
+14:24:02.408: v4l2-input: Resolution: 640x480
+14:24:02.408: v4l2-input: Pixelformat: YUYV
+14:24:02.408: v4l2-input: Linesize: 1280 Bytes
+14:24:02.411: v4l2-input: Framerate: 30.00 fps
+14:24:02.412: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+14:24:02.582: v4l2-input: /dev/video0: select timed out
+14:24:02.582: v4l2-input: /dev/video0: failed to log status
+14:24:03.931: v4l2-input: /dev/video0: Stopped capture after 33 frames
+14:24:03.934: v4l2-input: Start capture from /dev/video0
+14:24:03.935: v4l2-input: Input: 0
+14:24:03.940: v4l2-input: Resolution: 640x480
+14:24:03.940: v4l2-input: Pixelformat: YUYV
+14:24:03.940: v4l2-input: Linesize: 1280 Bytes
+14:24:03.943: v4l2-input: Framerate: 30.00 fps
+14:24:03.945: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+14:24:04.114: v4l2-input: /dev/video0: select timed out
+14:24:04.114: v4l2-input: /dev/video0: failed to log status
+14:24:20.550: User added filter 'Sharpen' (sharpness_filter_v2) to source 'Video Capture Device (V4L2)'
+14:24:42.738: User switched to scene 'Camera triple'
+14:24:43.298: [pipewire] Stream 0x60a13667f0b0 state: "paused" (error: none)
+14:24:43.580: User added source 'Video Capture Device (V4L2)' (v4l2_input) to scene 'Camera triple'
+14:24:46.944: User added source 'Video Capture Device (V4L2)' (v4l2_input) to scene 'Camera triple'
+14:24:48.306: User added source 'Video Capture Device (V4L2)' (v4l2_input) to scene 'Camera triple'
+14:26:23.831: User switched to scene 'Camera dual'
+14:26:24.814: User added source 'Video Capture Device (V4L2)' (v4l2_input) to scene 'Camera dual'
+14:26:28.352: User added source 'Video Capture Device (V4L2)' (v4l2_input) to scene 'Camera dual'
+14:26:43.657: Creating a popup with a parent, QWidgetWindow(0x60a1342590a0, name="OBSBasicWindow") which does not match the current topmost grabbing popup, QWidgetWindow(0x60a1366d4d30, name="QMenuClassWindow") With some shell surface protocols, this is not allowed. The wayland QPA plugin is currently handling it by setting the parent to the topmost grabbing popup. Note, however, that this may cause positioning errors and popups closing unxpectedly. Please fix the transient parent of the popup.
+14:29:45.235: User switched to scene 'Camera'
+14:29:48.258: User switched to scene 'Camera dual'
+14:30:04.571: User switched to scene 'Camera'
+14:30:04.907: User switched to scene 'Camera triple'
+14:30:05.155: User switched to scene 'Camera dual'
+14:30:06.047: User added source 'Video Capture Device (V4L2)' (v4l2_input) to scene 'Camera dual'
+14:30:08.011: User switched to scene 'Camera triple'
+14:30:08.227: User switched to scene 'Camera dual'
+14:30:14.876: User switched to scene 'Camera triple'
+14:30:15.404: User switched to scene 'Camera dual'
+14:30:20.402: User Removed source 'Video Capture Device (V4L2)' (v4l2_input) from scene 'Camera dual'
+14:30:20.402: User Removed source 'Video Capture Device (V4L2)' (v4l2_input) from scene 'Camera dual'
+14:30:20.402: User Removed source 'Video Capture Device (V4L2)' (v4l2_input) from scene 'Camera dual'
+14:30:20.405: User added source 'Video Capture Device (V4L2)' (v4l2_input) to scene 'Camera dual'
+14:30:20.408: User added source 'Video Capture Device (V4L2)' (v4l2_input) to scene 'Camera dual'
+14:30:22.667: User added source 'Video Capture Device (V4L2)' (v4l2_input) to scene 'Camera dual'
+14:30:23.287: User Removed source 'Video Capture Device (V4L2)' (v4l2_input) from scene 'Camera dual'
+14:30:23.287: User Removed source 'Video Capture Device (V4L2)' (v4l2_input) from scene 'Camera dual'
+14:30:23.287: User Removed source 'Video Capture Device (V4L2)' (v4l2_input) from scene 'Camera dual'
+14:30:23.292: User added source 'Video Capture Device (V4L2)' (v4l2_input) to scene 'Camera dual'
+14:30:23.297: User added source 'Video Capture Device (V4L2)' (v4l2_input) to scene 'Camera dual'
+14:30:24.757: Creating a popup with a parent, QWidgetWindow(0x60a1342590a0, name="OBSBasicWindow") which does not match the current topmost grabbing popup, QWidgetWindow(0x60a136898760, name="QMenuClassWindow") With some shell surface protocols, this is not allowed. The wayland QPA plugin is currently handling it by setting the parent to the topmost grabbing popup. Note, however, that this may cause positioning errors and popups closing unxpectedly. Please fix the transient parent of the popup.
+14:30:31.248: User added scene 'Camera dual trans'
+14:30:31.248: User added source 'Video Capture Device (V4L2)' (v4l2_input) to scene 'Camera dual trans'
+14:30:31.249: User added source 'Video Capture Device (V4L2)' (v4l2_input) to scene 'Camera dual trans'
+14:30:31.259: Switched to scene 'Camera dual trans'
+14:30:41.156: Creating a popup with a parent, QWidgetWindow(0x60a1342590a0, name="OBSBasicWindow") which does not match the current topmost grabbing popup, QWidgetWindow(0x60a1362b5ab0, name="QMenuClassWindow") With some shell surface protocols, this is not allowed. The wayland QPA plugin is currently handling it by setting the parent to the topmost grabbing popup. Note, however, that this may cause positioning errors and popups closing unxpectedly. Please fix the transient parent of the popup.
+14:30:43.079: Creating a popup with a parent, QWidgetWindow(0x60a1342590a0, name="OBSBasicWindow") which does not match the current topmost grabbing popup, QWidgetWindow(0x60a1362b5ab0, name="QMenuClassWindow") With some shell surface protocols, this is not allowed. The wayland QPA plugin is currently handling it by setting the parent to the topmost grabbing popup. Note, however, that this may cause positioning errors and popups closing unxpectedly. Please fix the transient parent of the popup.
+14:31:06.745: User Removed source 'Video Capture Device (V4L2)' (v4l2_input) from scene 'Camera dual trans'
+14:31:06.746: User Removed source 'Video Capture Device (V4L2)' (v4l2_input) from scene 'Camera dual trans'
+14:31:06.752: User added source 'Video Capture Device (V4L2)' (v4l2_input) to scene 'Camera dual trans'
+14:31:06.758: User added source 'Video Capture Device (V4L2)' (v4l2_input) to scene 'Camera dual trans'
+14:31:09.278: User added source 'Video Capture Device (V4L2)' (v4l2_input) to scene 'Camera dual trans'
+14:31:09.284: User added source 'Video Capture Device (V4L2)' (v4l2_input) to scene 'Camera dual trans'
+14:31:32.837: v4l2-input: /dev/video1 seems to not support video capture
+14:31:32.838: v4l2-input: Found device 'Vimicro USB2.0 UVC PC Camera: V' at /dev/video0
+14:31:32.841: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+14:31:32.841: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+14:31:32.841: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+14:31:32.841: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+14:31:32.841: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+14:31:32.843: v4l2-input: Found input 'Camera 1' (Index 0)
+14:31:32.843: v4l2-controls: setting default for Power Line Frequency to 1
+14:31:32.843: v4l2-controls: setting default for Auto Exposure to 3
+14:31:32.844: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+14:31:32.844: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+14:31:32.844: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+14:31:32.844: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+14:31:32.844: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+14:31:40.154: Creating a popup with a parent, QWidgetWindow(0x60a1342590a0, name="OBSBasicWindow") which does not match the current topmost grabbing popup, QWidgetWindow(0x60a13670e170, name="QMenuClassWindow") With some shell surface protocols, this is not allowed. The wayland QPA plugin is currently handling it by setting the parent to the topmost grabbing popup. Note, however, that this may cause positioning errors and popups closing unxpectedly. Please fix the transient parent of the popup.
+14:31:40.554: Creating a popup with a parent, QWidgetWindow(0x60a1342590a0, name="OBSBasicWindow") which does not match the current topmost grabbing popup, QWidgetWindow(0x60a13670e170, name="QMenuClassWindow") With some shell surface protocols, this is not allowed. The wayland QPA plugin is currently handling it by setting the parent to the topmost grabbing popup. Note, however, that this may cause positioning errors and popups closing unxpectedly. Please fix the transient parent of the popup.
+14:31:44.549: v4l2-input: /dev/video1 seems to not support video capture
+14:31:44.549: v4l2-input: Found device 'Vimicro USB2.0 UVC PC Camera: V' at /dev/video0
+14:31:44.557: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+14:31:44.557: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+14:31:44.557: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+14:31:44.557: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+14:31:44.557: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+14:31:44.558: v4l2-input: Found input 'Camera 1' (Index 0)
+14:31:44.558: v4l2-controls: setting default for Power Line Frequency to 1
+14:31:44.558: v4l2-controls: setting default for Auto Exposure to 3
+14:31:44.558: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+14:31:44.558: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+14:31:44.558: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+14:31:44.558: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+14:31:44.558: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+14:31:56.208: User added filter 'Apply LUT' (clut_filter) to source 'Video Capture Device (V4L2)'
+14:32:00.040: User removed filter 'Apply LUT' (clut_filter) from source 'Video Capture Device (V4L2)'
+14:32:01.624: User removed filter 'Sharpen' (sharpness_filter_v2) from source 'Video Capture Device (V4L2)'
+14:32:10.354: User switched to scene 'Camera triple'
+14:32:10.961: User switched to scene 'Camera dual'
+14:32:11.345: User switched to scene 'Camera dual trans'
+14:32:36.744: User added source 'Video Capture Device (V4L2)' (v4l2_input) to scene 'Camera dual trans'
+14:32:55.793: User added source 'Video Capture Device (V4L2)' (v4l2_input) to scene 'Camera dual trans'
+14:33:06.459: User added source 'Video Capture Device (V4L2)' (v4l2_input) to scene 'Camera dual trans'
+14:34:31.441: User switched to scene 'Camera dual'
+14:34:32.305: User switched to scene 'Camera triple'
+14:34:33.122: User switched to scene 'Camera dual'
+14:34:33.666: User switched to scene 'Camera'
+14:34:34.288: User switched to scene 'Camera triple'
+14:34:34.358: QVariant::save: unable to save type 'OBSSafeRef<obs_scene*,obs_scene_get_ref,obs_scene_release>' (type id: 65570).
+14:34:34.358: 
+14:34:36.697: User switched to scene 'Camera dual'
+14:34:37.129: User switched to scene 'Camera'
+14:34:38.146: User switched to scene 'Camera dual'
+14:34:38.320: User switched to scene 'Camera triple'
+14:34:39.140: User switched to scene 'Camera dual'
+14:34:39.304: User switched to scene 'Camera'
+14:34:39.975: User switched to scene 'Camera dual'
+14:34:40.524: User switched to scene 'Camera triple'
+14:34:41.212: User switched to scene 'Camera dual trans'
+14:34:43.764: User switched to scene 'Camera triple'
+14:34:44.511: User switched to scene 'Camera dual'
+14:34:51.787: Virtual camera started
+14:34:51.790: ==== Virtual Camera Start ==========================================
+14:34:51.791: Starting Virtual Camera output to Program
+14:37:29.937: User switched to scene 'Camera'
+14:37:32.755: User switched to scene 'Camera dual'
+15:46:18.190: ---------------------------------
+15:46:18.190: [x264 encoder: 'advanced_video_stream'] preset: veryfast
+15:46:18.192: [x264 encoder: 'advanced_video_stream'] settings:
+15:46:18.192: 	rate_control: CBR
+15:46:18.192: 	bitrate:      2500
+15:46:18.192: 	buffer size:  2500
+15:46:18.192: 	crf:          23
+15:46:18.192: 	fps_num:      30
+15:46:18.192: 	fps_den:      1
+15:46:18.192: 	width:        1280
+15:46:18.192: 	height:       720
+15:46:18.192: 	keyint:       250
+15:46:18.192: 
+15:46:18.221: libfdk_aac encoder created
+15:46:18.221: libfdk_aac bitrate: 160, channels: 2
+15:46:18.221: libfdk_aac encoder created
+15:46:18.221: libfdk_aac bitrate: 160, channels: 2
+15:46:18.221: libfdk_aac encoder created
+15:46:18.221: libfdk_aac bitrate: 160, channels: 2
+15:46:18.221: [ffmpeg muxer: 'adv_file_output'] Using muxer settings:
+15:46:18.221: 	movflags=frag_keyframe+empty_moov+delay_moov
+15:46:18.222: ==== Recording Start ===============================================
+15:46:18.222: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/pguin/Videos/2025-03-15 15-46-18.mov'...
+15:46:56.282: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/pguin/Videos/2025-03-15 15-46-18.mov' stopped
+15:46:56.282: Output 'adv_file_output': stopping
+15:46:56.282: Output 'adv_file_output': Total frames output: 1106
+15:46:56.282: Output 'adv_file_output': Total drawn frames: 1142
+15:46:56.284: ==== Recording Stop ================================================
+15:46:56.304: libfdk_aac encoder destroyed
+15:46:56.304: libfdk_aac encoder destroyed
+15:46:56.304: libfdk_aac encoder destroyed
+15:47:22.569: [Media Source '2025-03-15 15-46-18.mov']: settings:
+15:47:22.569: 	input:                   /home/pguin/Videos/2025-03-15 15-46-18.mov
+15:47:22.569: 	input_format:            (null)
+15:47:22.569: 	speed:                   100
+15:47:22.569: 	is_looping:              no
+15:47:22.569: 	is_linear_alpha:         no
+15:47:22.569: 	is_hw_decoding:          no
+15:47:22.569: 	is_clear_on_media_end:   yes
+15:47:22.569: 	restart_on_activate:     yes
+15:47:22.569: 	close_when_inactive:     no
+15:47:22.569: 	full_decode:             no
+15:47:22.569: 	ffmpeg_options:          
+15:47:22.574: User added source '2025-03-15 15-46-18.mov' (ffmpeg_source) to scene 'Camera dual'
+15:47:34.197: [Media Source '2025-03-15 15-46-18.mov']: settings:
+15:47:34.197: 	input:                   /home/pguin/Videos/2025-03-15 15-46-18.mov
+15:47:34.197: 	input_format:            (null)
+15:47:34.197: 	speed:                   100
+15:47:34.197: 	is_looping:              yes
+15:47:34.197: 	is_linear_alpha:         no
+15:47:34.197: 	is_hw_decoding:          no
+15:47:34.197: 	is_clear_on_media_end:   yes
+15:47:34.197: 	restart_on_activate:     yes
+15:47:34.197: 	close_when_inactive:     no
+15:47:34.197: 	full_decode:             no
+15:47:34.197: 	ffmpeg_options:          
+16:04:52.682: User added source '2025-03-15 15-46-18.mov' (ffmpeg_source) to scene 'Camera dual'
+16:04:53.656: User Removed source 'Video Capture Device (V4L2)' (v4l2_input) from scene 'Camera dual'
+16:04:53.656: User Removed source 'Video Capture Device (V4L2)' (v4l2_input) from scene 'Camera dual'
+16:04:53.656: User Removed source '2025-03-15 15-46-18.mov' (ffmpeg_source) from scene 'Camera dual'
+16:04:53.657: User Removed source '2025-03-15 15-46-18.mov' (ffmpeg_source) from scene 'Camera dual'
+16:04:53.662: User added source 'Video Capture Device (V4L2)' (v4l2_input) to scene 'Camera dual'
+16:04:53.667: User added source 'Video Capture Device (V4L2)' (v4l2_input) to scene 'Camera dual'
+16:04:53.673: User added source '2025-03-15 15-46-18.mov' (ffmpeg_source) to scene 'Camera dual'
+16:05:06.888: User added scene 'Camera dual fictive'
+16:05:06.888: User added source 'Video Capture Device (V4L2)' (v4l2_input) to scene 'Camera dual fictive'
+16:05:06.889: User added source 'Video Capture Device (V4L2)' (v4l2_input) to scene 'Camera dual fictive'
+16:05:06.889: User added source '2025-03-15 15-46-18.mov' (ffmpeg_source) to scene 'Camera dual fictive'
+16:05:06.915: Switched to scene 'Camera dual fictive'
+16:05:13.016: User Removed source 'Video Capture Device (V4L2)' (v4l2_input) from scene 'Camera dual fictive'
+16:05:13.016: User Removed source 'Video Capture Device (V4L2)' (v4l2_input) from scene 'Camera dual fictive'
+16:05:14.306: User switched to scene 'Camera dual'
+16:05:15.904: User switched to scene 'Camera dual fictive'
+16:05:16.430: User switched to scene 'Camera dual'
+16:05:20.656: User Removed source '2025-03-15 15-46-18.mov' (ffmpeg_source) from scene 'Camera dual'
+16:05:30.808: User switched to scene 'Camera dual fictive'
+16:06:44.325: User switched to scene 'Camera dual'
+16:06:45.492: User switched to scene 'Camera dual fictive'
+16:06:46.781: User switched to scene 'Camera dual'
+16:06:47.173: User switched to scene 'Camera dual fictive'
+16:06:51.270: User switched to scene 'Camera dual'
+16:27:28.067: User switched to scene 'Camera dual trans'
+16:34:34.974: User switched to scene 'Discord'
+16:34:54.897: User switched to scene 'Camera'
+16:40:42.714: User switched to scene 'Camera dual'
+16:40:42.859: User switched to scene 'Camera dual fictive'
+16:42:00.614: User switched to scene 'Camera dual'
+16:42:04.254: User switched to scene 'Camera'
+16:58:15.943: User switched to scene 'Camera dual'
+16:58:16.205: User switched to scene 'Camera dual fictive'
+16:58:16.520: User switched to scene 'Camera triple'
+16:58:16.750: User switched to scene 'Camera dual trans'
+16:58:17.045: User switched to scene 'Camera triple'
+16:58:17.294: User switched to scene 'Camera dual fictive'
+16:58:18.341: User switched to scene 'Camera dual trans'
+16:58:21.111: User switched to scene 'Discord'
+16:58:21.446: User switched to scene 'Camera dual trans'
+17:00:28.972: ==== Shutting down ==================================================
+17:00:28.974: Output 'virtualcam_output': stopping
+17:00:28.974: Output 'virtualcam_output': Total frames output: 262115
+17:00:28.974: Output 'virtualcam_output': Total drawn frames: 262116
+17:00:28.974: ==== Virtual Camera Stop ===========================================
+17:00:28.975: Virtual camera stopped
+17:00:28.995: pulse-input: Stopped recording from 'alsa_output.usb-Burr-Brown_from_TI_USB_Audio_CODEC-00.analog-stereo-output.monitor'
+17:00:28.995: pulse-input: Got 490400 packets with 588480000 frames
+17:00:28.995: pulse-input: Stopped recording from 'alsa_input.usb-Burr-Brown_from_TI_USB_Audio_CODEC-00.analog-stereo-input'
+17:00:28.995: pulse-input: Got 490405 packets with 588486000 frames
+17:00:28.997: [pipewire] Stream 0x60a13667f0b0 state: "unconnected" (error: none)
+17:00:29.060: v4l2-input: /dev/video0: Stopped capture after 250301 frames
+17:00:29.065: All scene data cleared
+17:00:29.065: ------------------------------------------------
+17:00:29.157: [Scripting] Total detached callbacks: 0
+17:00:29.157: Freeing OBS context data
+17:00:29.177: == Profiler Results =============================
+17:00:29.177: run_program_init: 4670.16 ms
+17:00:29.177:  ┣OBSApp::AppInit: 15.084 ms
+17:00:29.177:  ┃ ┗OBSApp::InitLocale: 2.131 ms
+17:00:29.177:  ┗OBSApp::OBSInit: 1415.13 ms
+17:00:29.177:    ┣obs_startup: 3.797 ms
+17:00:29.177:    ┗OBSBasic::OBSInit: 1360.13 ms
+17:00:29.177:      ┣OBSBasic::InitBasicConfig: 1.171 ms
+17:00:29.177:      ┣OBSBasic::ResetAudio: 0.149 ms
+17:00:29.177:      ┣OBSBasic::ResetVideo: 114.882 ms
+17:00:29.177:      ┃ ┗obs_init_graphics: 103.507 ms
+17:00:29.177:      ┃   ┗shader compilation: 31.151 ms
+17:00:29.177:      ┣OBSBasic::InitOBSCallbacks: 0.006 ms
+17:00:29.177:      ┣OBSBasic::InitHotkeys: 0.037 ms
+17:00:29.177:      ┣obs_load_all_modules2: 1024.93 ms
+17:00:29.177:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+17:00:29.177:      ┃ ┣obs_init_module(decklink-output-ui.so): 0 ms
+17:00:29.177:      ┃ ┣obs_init_module(decklink.so): 0.113 ms
+17:00:29.177:      ┃ ┣obs_init_module(frontend-tools.so): 87.085 ms
+17:00:29.177:      ┃ ┣obs_init_module(image-source.so): 0.011 ms
+17:00:29.177:      ┃ ┣obs_init_module(linux-alsa.so): 0.002 ms
+17:00:29.177:      ┃ ┣obs_init_module(linux-capture.so): 0 ms
+17:00:29.177:      ┃ ┣obs_init_module(linux-jack.so): 0.005 ms
+17:00:29.177:      ┃ ┣obs_init_module(linux-pipewire.so): 4.575 ms
+17:00:29.177:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.006 ms
+17:00:29.177:      ┃ ┣obs_init_module(linux-v4l2.so): 4.628 ms
+17:00:29.177:      ┃ ┣obs_init_module(obs-ffmpeg.so): 0.965 ms
+17:00:29.177:      ┃ ┣obs_init_module(obs-filters.so): 0.059 ms
+17:00:29.177:      ┃ ┣obs_init_module(obs-libfdk.so): 0.002 ms
+17:00:29.177:      ┃ ┣obs_init_module(obs-nvenc.so): 490.499 ms
+17:00:29.177:      ┃ ┃ ┗nvenc_check: 490.488 ms
+17:00:29.177:      ┃ ┣obs_init_module(obs-outputs.so): 0.006 ms
+17:00:29.177:      ┃ ┣obs_init_module(obs-qsv11.so): 1.238 ms
+17:00:29.177:      ┃ ┣obs_init_module(obs-transitions.so): 0.009 ms
+17:00:29.177:      ┃ ┣obs_init_module(obs-vst.so): 0.004 ms
+17:00:29.177:      ┃ ┣obs_init_module(obs-webrtc.so): 0.004 ms
+17:00:29.177:      ┃ ┣obs_init_module(obs-x264.so): 0.003 ms
+17:00:29.177:      ┃ ┣obs_init_module(rtmp-services.so): 0.333 ms
+17:00:29.177:      ┃ ┗obs_init_module(text-freetype2.so): 0.024 ms
+17:00:29.177:      ┣OBSBasic::InitService: 2.106 ms
+17:00:29.177:      ┣OBSBasic::ResetOutputs: 0.197 ms
+17:00:29.177:      ┣OBSBasic::CreateHotkeys: 0.033 ms
+17:00:29.177:      ┣OBSBasic::InitPrimitives: 0.205 ms
+17:00:29.177:      ┗OBSBasic::Load: 183.46 ms
+17:00:29.177: obs_hotkey_thread(25 ms): min=0 ms, median=0 ms, max=0.084 ms, 99th percentile=0.001 ms, 100% below 25 ms
+17:00:29.177: audio_thread(Audio): min=0.014 ms, median=0.105 ms, max=54.289 ms, 99th percentile=0.852 ms
+17:00:29.177:  ┗receive_audio: min=0.001 ms, median=0.258 ms, max=17.074 ms, 99th percentile=0.878 ms, 0.0093169 calls per parent call
+17:00:29.177:    ┣buffer_audio: min=0 ms, median=0.001 ms, max=0.04 ms, 99th percentile=0.004 ms
+17:00:29.177:    ┗do_encode: min=0.044 ms, median=0.255 ms, max=17.071 ms, 99th percentile=0.873 ms
+17:00:29.177:      ┣encode(Track1): min=0.164 ms, median=0.484 ms, max=1.277 ms, 99th percentile=0.959 ms, 0.333333 calls per parent call
+17:00:29.177:      ┣send_packet: min=0 ms, median=0.006 ms, max=17.024 ms, 99th percentile=0.036 ms
+17:00:29.177:      ┣encode(Track2): min=0.054 ms, median=0.347 ms, max=1.096 ms, 99th percentile=0.641 ms, 0.333333 calls per parent call
+17:00:29.177:      ┗encode(Track3): min=0.043 ms, median=0.104 ms, max=0.333 ms, 99th percentile=0.205 ms, 0.333333 calls per parent call
+17:00:29.177: obs_graphics_thread(33.3333 ms): min=0.177 ms, median=3.151 ms, max=91.304 ms, 99th percentile=7.865 ms, 99.9973% below 33.333 ms
+17:00:29.177:  ┣tick_sources: min=0 ms, median=0.02 ms, max=90.619 ms, 99th percentile=0.061 ms
+17:00:29.177:  ┣output_frame: min=0.074 ms, median=1.075 ms, max=54.352 ms, 99th percentile=2.284 ms
+17:00:29.177:  ┃ ┣gs_context(video->graphics): min=0.074 ms, median=0.868 ms, max=54.346 ms, 99th percentile=2.034 ms
+17:00:29.177:  ┃ ┃ ┣render_video: min=0.04 ms, median=0.749 ms, max=54.168 ms, 99th percentile=1.688 ms
+17:00:29.177:  ┃ ┃ ┃ ┣render_main_texture: min=0.034 ms, median=0.569 ms, max=54.151 ms, 99th percentile=1.339 ms
+17:00:29.177:  ┃ ┃ ┃ ┣render_output_texture: min=0.028 ms, median=0.075 ms, max=1.482 ms, 99th percentile=0.142 ms, 0.712578 calls per parent call
+17:00:29.177:  ┃ ┃ ┃ ┣render_convert_texture: min=0.041 ms, median=0.108 ms, max=1.557 ms, 99th percentile=0.201 ms, 0.712578 calls per parent call
+17:00:29.177:  ┃ ┃ ┃ ┗stage_output_texture: min=0.018 ms, median=0.05 ms, max=3.505 ms, 99th percentile=0.152 ms, 0.712578 calls per parent call
+17:00:29.177:  ┃ ┃ ┣gs_flush: min=0.003 ms, median=0.009 ms, max=3.299 ms, 99th percentile=0.083 ms
+17:00:29.177:  ┃ ┃ ┗download_frame: min=0 ms, median=0.005 ms, max=0.268 ms, 99th percentile=0.008 ms, 0.712578 calls per parent call
+17:00:29.177:  ┃ ┗output_video_data: min=0.153 ms, median=0.24 ms, max=2.039 ms, 99th percentile=0.489 ms, 0.712575 calls per parent call
+17:00:29.177:  ┗render_displays: min=0.03 ms, median=1.766 ms, max=43.996 ms, 99th percentile=6.259 ms
+17:00:29.177: video_thread(video): min=1.035 ms, median=2.343 ms, max=17.576 ms, 99th percentile=3.457 ms
+17:00:29.177:  ┗receive_video: min=0.801 ms, median=1.374 ms, max=14.857 ms, 99th percentile=3.58 ms, 0.00435687 calls per parent call
+17:00:29.177:    ┗do_encode: min=0.8 ms, median=1.374 ms, max=14.856 ms, 99th percentile=3.577 ms
+17:00:29.177:      ┣encode(advanced_video_stream): min=0.783 ms, median=1.356 ms, max=6.002 ms, 99th percentile=3.539 ms
+17:00:29.177:      ┗send_packet: min=0.005 ms, median=0.014 ms, max=13.081 ms, 99th percentile=0.037 ms
+17:00:29.177: =================================================
+17:00:29.177: == Profiler Time Between Calls ==================
+17:00:29.177: obs_hotkey_thread(25 ms): min=25.01 ms, median=25.076 ms, max=28.391 ms, 99.9916% within ±2% of 25 ms (0% lower, 0.00838497% higher)
+17:00:29.177: obs_graphics_thread(33.3333 ms): min=8.67 ms, median=33.333 ms, max=91.312 ms, 99.9878% within ±2% of 33.333 ms (0.0062527% lower, 0.00598084% higher)
+17:00:29.177: =================================================
+17:00:29.227: Number of memory leaks: 0

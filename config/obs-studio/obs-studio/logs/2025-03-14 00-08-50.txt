@@ -1,0 +1,197 @@
+00:08:50.491: Platform: Wayland
+00:08:50.491: CPU Name: AMD Ryzen 7 2700 Eight-Core Processor
+00:08:50.491: CPU Speed: 1479.781MHz
+00:08:50.492: Physical Cores: 8, Logical Cores: 16
+00:08:50.492: Physical Memory: 15914MB Total, 833MB Free
+00:08:50.492: Kernel Version: Linux 6.13.4-arch1-1
+00:08:50.492: Distribution: "Arch Linux" Unknown
+00:08:50.492: Desktop Environment: Hyprland (Hyprland)
+00:08:50.492: Session Type: wayland
+00:08:50.494: Qt Version: 6.8.2 (runtime), 6.8.1 (compiled)
+00:08:50.494: Portable mode: false
+00:08:50.546: OBS 31.0.1 (linux)
+00:08:50.546: ---------------------------------
+00:08:50.548: ---------------------------------
+00:08:50.548: audio settings reset:
+00:08:50.548: 	samples per sec: 48000
+00:08:50.548: 	speakers:        2
+00:08:50.548: 	max buffering:   960 milliseconds
+00:08:50.548: 	buffering type:  dynamically increasing
+00:08:50.551: ---------------------------------
+00:08:50.551: Initializing OpenGL...
+00:08:50.551: Using EGL/Wayland
+00:08:50.644: Initialized EGL 1.5
+00:08:50.698: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 1070 Ti/PCIe/SSE2
+00:08:50.698: OpenGL loaded successfully, version 3.3.0 NVIDIA 570.86.16, shading language 3.30 NVIDIA via Cg compiler
+00:08:50.770: ---------------------------------
+00:08:50.770: video settings reset:
+00:08:50.770: 	base resolution:   1920x1080
+00:08:50.770: 	output resolution: 1280x720
+00:08:50.770: 	downscale filter:  Bicubic
+00:08:50.770: 	fps:               30/1
+00:08:50.770: 	format:            NV12
+00:08:50.770: 	YUV mode:          Rec. 709/Partial
+00:08:50.771: NV12 texture support enabled
+00:08:50.771: P010 texture support not available
+00:08:50.796: Audio monitoring device:
+00:08:50.796: 	name: Default
+00:08:50.796: 	id: default
+00:08:50.800: ---------------------------------
+00:08:50.816: Failed to load 'en-US' text for module: 'decklink-captions.so'
+00:08:50.833: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+00:08:50.847: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+00:08:50.847: Failed to initialize module 'decklink.so'
+00:08:51.102: [pipewire] Available capture sources:
+00:08:51.102: [pipewire]     - Monitor source
+00:08:51.102: [pipewire]     - Window source
+00:08:51.262: LIBVA_DRIVER_NAME variable is set, this could prevent FFmpeg VAAPI from working correctly
+00:08:51.262: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+00:08:51.262: FFmpeg VAAPI H264 encoding not supported
+00:08:51.262: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+00:08:51.262: FFmpeg VAAPI AV1 encoding not supported
+00:08:51.262: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+00:08:51.262: FFmpeg VAAPI HEVC encoding not supported
+00:08:51.905: [obs-nvenc] NVENC version: 12.2 (compiled) / 13.0 (driver), CUDA driver version: 12.80, AV1 supported: false
+00:08:52.053: os_dlopen(/usr/lib/obs-plugins/obs-websocket.so->/usr/lib/obs-plugins/obs-websocket.so): libqrcodegencpp.so.1: cannot open shared object file: No such file or directory
+00:08:52.053: 
+00:08:52.060: os_dlopen(/usr/lib/obs-plugins/obs-websocket.so->/usr/lib/obs-plugins/obs-websocket.so): libqrcodegencpp.so.1: cannot open shared object file: No such file or directory
+00:08:52.060: 
+00:08:52.060: Module '/usr/lib/obs-plugins/obs-websocket.so' not loaded
+00:08:52.127: ---------------------------------
+00:08:52.127:   Loaded Modules:
+00:08:52.127:     text-freetype2.so
+00:08:52.127:     rtmp-services.so
+00:08:52.127:     obs-x264.so
+00:08:52.127:     obs-webrtc.so
+00:08:52.127:     obs-vst.so
+00:08:52.127:     obs-transitions.so
+00:08:52.127:     obs-qsv11.so
+00:08:52.127:     obs-outputs.so
+00:08:52.127:     obs-nvenc.so
+00:08:52.127:     obs-libfdk.so
+00:08:52.127:     obs-filters.so
+00:08:52.127:     obs-ffmpeg.so
+00:08:52.127:     linux-v4l2.so
+00:08:52.127:     linux-pulseaudio.so
+00:08:52.127:     linux-pipewire.so
+00:08:52.127:     linux-jack.so
+00:08:52.127:     linux-capture.so
+00:08:52.127:     linux-alsa.so
+00:08:52.127:     image-source.so
+00:08:52.127:     frontend-tools.so
+00:08:52.127:     decklink-output-ui.so
+00:08:52.127:     decklink-captions.so
+00:08:52.127: ---------------------------------
+00:08:52.127: ---------------------------------
+00:08:52.127: Available Encoders:
+00:08:52.127:   Video Encoders:
+00:08:52.127: 	- ffmpeg_svt_av1 (SVT-AV1)
+00:08:52.127: 	- ffmpeg_aom_av1 (AOM AV1)
+00:08:52.127: 	- obs_nvenc_h264_tex (NVIDIA NVENC H.264)
+00:08:52.127: 	- obs_nvenc_hevc_tex (NVIDIA NVENC HEVC)
+00:08:52.127: 	- obs_x264 (x264)
+00:08:52.127:   Audio Encoders:
+00:08:52.127: 	- ffmpeg_aac (FFmpeg AAC)
+00:08:52.127: 	- ffmpeg_opus (FFmpeg Opus)
+00:08:52.127: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+00:08:52.127: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+00:08:52.127: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+00:08:52.127: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+00:08:52.127: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+00:08:52.127: 	- libfdk_aac (libfdk AAC)
+00:08:52.127: ==== Startup complete ===============================================
+00:08:52.195: All scene data cleared
+00:08:52.195: ------------------------------------------------
+00:08:52.203: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.7) 15.0.0'
+00:08:52.203: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+00:08:52.203: pulse-input: Started recording from 'alsa_output.usb-Burr-Brown_from_TI_USB_Audio_CODEC-00.analog-stereo-output.monitor' (default)
+00:08:52.204: [Loaded global audio device]: 'Desktop Audio'
+00:08:52.204: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.7) 15.0.0'
+00:08:52.204: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+00:08:52.204: pulse-input: Started recording from 'alsa_input.usb-Burr-Brown_from_TI_USB_Audio_CODEC-00.analog-stereo-input' (default)
+00:08:52.204: [Loaded global audio device]: 'Mic/Aux'
+00:08:52.205: v4l2-input: Start capture from /dev/video0
+00:08:52.207: v4l2-input: Input: 0
+00:08:52.213: v4l2-input: Resolution: 640x480
+00:08:52.213: v4l2-input: Pixelformat: YUYV
+00:08:52.213: v4l2-input: Linesize: 1280 Bytes
+00:08:52.216: v4l2-input: Framerate: 30.00 fps
+00:08:52.217: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+00:08:52.217: PipeWire initialized
+00:08:52.252: Switched to scene 'Camera dual'
+00:08:52.252: ------------------------------------------------
+00:08:52.252: Loaded scenes:
+00:08:52.252: - scene 'Main':
+00:08:52.252:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+00:08:52.252:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+00:08:52.252: - scene 'Main 2':
+00:08:52.252:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+00:08:52.252:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+00:08:52.252:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+00:08:52.252: - scene 'Reversed':
+00:08:52.252:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+00:08:52.252:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+00:08:52.252:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+00:08:52.252: - scene 'Screen':
+00:08:52.252:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+00:08:52.252: - scene 'Camera':
+00:08:52.252:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+00:08:52.252:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+00:08:52.252: - scene 'Camera Jmih':
+00:08:52.252:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+00:08:52.252:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+00:08:52.252:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+00:08:52.252: - scene 'Camera dual':
+00:08:52.252:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+00:08:52.252:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+00:08:52.252: - scene 'Discord':
+00:08:52.252:     - source: 'bg.png' (image_source)
+00:08:52.252: ------------------------------------------------
+00:08:52.322: [pipewire] Screencast session created
+00:08:52.386: v4l2-input: /dev/video0: select timed out
+00:08:52.386: v4l2-input: /dev/video0: failed to log status
+00:08:52.767: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+00:08:52.767: 
+00:08:53.859: [pipewire] Asking for monitor and window
+00:08:53.874: [pipewire] source selected, setting up screencast
+00:08:53.886: [pipewire] Server version: 1.2.7
+00:08:53.886: [pipewire] Library version: 1.2.7
+00:08:53.886: [pipewire] Header version: 1.2.7
+00:08:53.887: [pipewire] Created stream 0x569270d5ad80
+00:08:53.887: [pipewire] Stream 0x569270d5ad80 state: "connecting" (error: none)
+00:08:53.887: [pipewire] Playing stream 0x569270d5ad80
+00:08:53.887: [pipewire] Stream 0x569270d5ad80 state: "paused" (error: none)
+00:08:53.949: [pipewire] Negotiated format:
+00:08:53.949: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+00:08:53.949: [pipewire]     Modifier: 0x0
+00:08:53.949: [pipewire]     Size: 1920x1080
+00:08:53.949: [pipewire]     Framerate: 0/1
+00:08:53.950: [pipewire] Negotiated format:
+00:08:53.950: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+00:08:53.950: [pipewire]     Modifier: 0x300000000cdb014
+00:08:53.950: [pipewire]     Size: 1920x1080
+00:08:53.950: [pipewire]     Framerate: 0/1
+00:08:53.951: [pipewire] Stream 0x569270d5ad80 state: "streaming" (error: none)
+00:08:55.202: User switched to scene 'Screen'
+00:08:55.533: User switched to scene 'Camera'
+00:08:55.539: [pipewire] Stream 0x569270d5ad80 state: "paused" (error: none)
+00:08:55.938: [pipewire] Stream 0x569270d5ad80 state: "streaming" (error: none)
+00:08:55.939: User switched to scene 'Screen'
+00:09:37.784: Virtual camera started
+00:09:37.789: ==== Virtual Camera Start ==========================================
+00:09:37.789: Starting Virtual Camera output to Program
+00:09:39.006: User switched to scene 'Main 2'
+00:09:40.190: User switched to scene 'Reversed'
+00:09:42.268: User switched to scene 'Camera'
+00:09:42.805: [pipewire] Stream 0x569270d5ad80 state: "paused" (error: none)
+00:17:04.419: User switched to scene 'Reversed'
+00:17:04.441: [pipewire] Stream 0x569270d5ad80 state: "streaming" (error: none)
+00:17:04.780: User switched to scene 'Main 2'
+00:17:06.219: User switched to scene 'Reversed'
+00:17:06.820: User switched to scene 'Screen'
+00:17:07.330: User switched to scene 'Camera'
+00:17:07.871: [pipewire] Stream 0x569270d5ad80 state: "paused" (error: none)
+00:17:07.922: User switched to scene 'Camera Jmih'
+00:17:10.739: User switched to scene 'Camera dual'
+00:17:11.363: User switched to scene 'Discord'
+00:17:11.652: User switched to scene 'Camera dual'
